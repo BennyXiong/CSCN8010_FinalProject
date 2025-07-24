@@ -1,4 +1,3 @@
-import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from collections import deque
@@ -23,10 +22,14 @@ def is_in_excluded_role(tag):
 def extract_text_skip_excluded(tag):
     if is_in_excluded_role(tag):
         return ''
-    if tag.name == 'a':  # skip <a> tags completely
-        return ''
+    
+    if tag.name == 'a':
+        href = tag.get('href')
+        return f'[LINK: {href}]' if href else ''
+    
     if not hasattr(tag, 'children') or not list(tag.children):
         return tag.get_text(separator=" ", strip=True)
+
     texts = []
     for child in tag.children:
         if hasattr(child, 'name'):
@@ -37,10 +40,11 @@ def extract_text_skip_excluded(tag):
             text = str(child).strip()
             if text:
                 texts.append(text)
+    
     return ' '.join(texts)
 
 def split_html_by_sections(soup: BeautifulSoup, url: str) -> List[Tuple[str, int, str]]:
-    main_div = soup.find('div', id='maincontent')
+    main_div = soup.find('div', id='main')
     if not main_div:
         return []
 
@@ -76,7 +80,7 @@ def split_html_by_sections(soup: BeautifulSoup, url: str) -> List[Tuple[str, int
 
     return chunks
 
-def crawl_site(session, start_url, output_file, max_level=2):
+def crawl_site(driver, start_url, output_file, max_level=2):
     domain = urlparse(start_url).netloc
     visited = set()
     queue = deque([(start_url, 0)])
@@ -92,11 +96,11 @@ def crawl_site(session, start_url, output_file, max_level=2):
             visited.add(url)
 
             try:
-                response = session.get(url, timeout=10)
-                if response.status_code != 200:
-                    continue
+                driver.get(url)
+                time.sleep(1)
 
-                soup = BeautifulSoup(response.text, 'html.parser')
+                html =  driver.page_source
+                soup = BeautifulSoup(html, 'html.parser')
                 chunks = split_html_by_sections(soup, url)
                 for row in chunks:
                     writer.writerow(row)
@@ -105,7 +109,14 @@ def crawl_site(session, start_url, output_file, max_level=2):
 
                 if level < max_level:
                     for link in soup.find_all('a', href=True):
-                        full_url = urljoin(url, link['href'])
+                        href = link['href']
+                        if (not href or
+                            href.startswith('mailto:') or
+                            href.startswith('javascript:') or
+                            href == '/students/logout'):
+                            continue  # Skip unwanted links
+                        
+                        full_url = urljoin(url, href)
                         if urlparse(full_url).netloc == domain and full_url not in visited:
                             queue.append((full_url, level + 1))
 
@@ -116,37 +127,27 @@ def crawl_site(session, start_url, output_file, max_level=2):
     print(f"\n✅ Done! Output saved to '{output_file}'")
 
 # --- Configuration ---
-# max_level = 0  # ⬅️ Change this to control how deep you want to crawl
-# crawl_site(requests.Session(), 'https://www.conestogac.on.ca/subsidized-training/academic-upgrading', 'data/conestogac.csv', 0)
+max_level = 2  # ⬅️ Change this to control how deep you want to crawl
 
-# # Setup Chrome
-# options = Options()
-# options.add_argument('--log-level=3')  # Suppress most logs
-# options.add_experimental_option('excludeSwitches', ['enable-logging'])
-# options.add_argument('--start-maximized')  # Not headless for login
-# driver = webdriver.Chrome(options=options)
+# Setup Chrome
+options = Options()
+options.add_argument('--log-level=3')
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
+options.add_argument('--start-maximized')
 
-# start_url = "https://successportal.conestogac.on.ca/"
-# # Step 1: Go to login page and complete login manually (if needed)
-# driver.get(start_url)
-# time.sleep(50)  # Wait for manual login if needed
+driver = webdriver.Chrome(options=options)
 
-# # Step 2: Save cookies
-# cookies = driver.get_cookies()
+start_url = "https://successportal.conestogac.on.ca/"
+driver.get(start_url)
+
+# Wait for user to log in manually
+print("⏳ Waiting for manual login...")
+time.sleep(50)  # You can adjust the time
+crawl_site(driver, start_url, 'data/conestogac_successportal.csv', 2)
+driver.quit()
+
+# crawl_site(driver, 'https://www.conestogac.on.ca/subsidized-training/academic-upgrading', 'data/conestogac.csv', 0)
 # driver.quit()
-
-# # Step 3: Use cookies in requests session
-# session = requests.Session()
-# for cookie in cookies:
-#     session.cookies.set(cookie['name'], cookie['value'])
-
-# # --- Step 5: Crawl the page (or start your full crawl) ---
-# response = session.get(start_url)
-# print("\n✅ Page content:")
-# print(response.text[:500])  # Print first 500 characters
-
-# crawl_site(session, 'https://successportal.conestogac.on.ca/', 'data/conestogac_successportal.csv', max_level)
-
 
 print(f"\n✅ Crawl completed.")
 
