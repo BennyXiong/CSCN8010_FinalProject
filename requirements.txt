@@ -1,0 +1,7 @@
+numpy==1.23.5
+scipy==1.9.3
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+huggingface_hub==0.10.1
+pandas==1.5.3
+tqdm==4.64.1
