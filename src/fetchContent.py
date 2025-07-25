@@ -14,9 +14,13 @@ heading_tags = {'h1', 'h2', 'h3'}
 # Helper function to check if a tag is inside an excluded-role div
 def is_in_excluded_role(tag):
     while tag is not None:
+        # Exclude <div> with role in excluded_roles
         if tag.name == 'div' and tag.get('role') in excluded_roles:
             return True
         tag = tag.parent
+        # Exclude <li> with class "navbar-right"
+        if tag.name == 'li' and 'navbar-right' in tag.get('class', []):
+            return True
     return False
 
 def extract_text_skip_excluded(tag):
