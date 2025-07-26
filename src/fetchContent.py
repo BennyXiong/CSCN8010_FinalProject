@@ -55,7 +55,6 @@ def split_html_by_sections(soup: BeautifulSoup, url: str, contentId: str = "main
 
     chunks = []
     current_chunk = ""
-    chunk_index = 1
 
     # Iterate over immediate children only (recursive=False)
     for child in main_div.find_all(recursive=False):
@@ -65,8 +64,7 @@ def split_html_by_sections(soup: BeautifulSoup, url: str, contentId: str = "main
         if child.name in heading_tags:
             # Save previous chunk if exists
             if current_chunk.strip():
-                chunks.append((url, chunk_index, current_chunk.strip()))
-                chunk_index += 1
+                chunks.append((url, current_chunk.strip()))
                 current_chunk = ""
 
             # Start new chunk with heading text
@@ -81,7 +79,7 @@ def split_html_by_sections(soup: BeautifulSoup, url: str, contentId: str = "main
 
     # Add last chunk if any
     if current_chunk.strip():
-        chunks.append((url, chunk_index, current_chunk.strip()))
+        chunks.append((url, current_chunk.strip()))
 
     return chunks
 
@@ -93,12 +91,12 @@ def normalize_url(url):
 def crawl_site(driver, start_url, output_file, contentId="main", max_level=2):
     domain = urlparse(start_url).netloc
     visited = set()
-    exclude_patterns = ["dashboard", "settings/communication", "account", "appointments"]
+    exclude_patterns = ["dashboard", "settings/", "account", "appointments", "/profile"]
     queue = deque([(start_url, 0)])
 
     with open(output_file, mode='w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(['url', 'chunk_number', 'content'])  # Header
+        writer.writerow(['url', 'content'])  # Header
 
         while queue:
             url, level = queue.popleft()
@@ -149,17 +147,17 @@ options.add_argument('--start-maximized')
 
 driver = webdriver.Chrome(options=options)
 
-# start_url = "https://successportal.conestogac.on.ca/students/resources/search/?order=Relevance&topicsUseAnd=true&take=428"
-# driver.get(start_url)
+start_url = "https://successportal.conestogac.on.ca/students/resources/search/?order=Relevance&topicsUseAnd=true&take=428"
+driver.get(start_url)
 
-# # Wait for user to log in manually
-# print("⏳ Waiting for manual login...")
-# time.sleep(40)  # You can adjust the time
-# crawl_site(driver, start_url, 'data/conestogac_successportal.csv', max_level=5)
-# driver.quit()
-
-crawl_site(driver, 'https://www.conestogac.on.ca', 'data/conestogac.csv', 'maincontent', 4)
+# Wait for user to log in manually
+print("⏳ Waiting for manual login...")
+time.sleep(40)  # You can adjust the time
+crawl_site(driver, start_url, 'data/conestogac_successportal.csv', max_level=5)
 driver.quit()
+
+# crawl_site(driver, 'https://www.conestogac.on.ca', 'data/conestogac.csv', 'maincontent', 4)
+# driver.quit()
 
 print(f"\n✅ Crawl completed.")
 
