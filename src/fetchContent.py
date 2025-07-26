@@ -7,24 +7,25 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 import time
 from typing import List, Tuple
+from urllib.parse import urlparse, urlunparse
 
 excluded_roles = {'navigation', 'banner'}
 heading_tags = {'h1', 'h2', 'h3'}
 
 # Helper function to check if a tag is inside an excluded-role div
-def is_in_excluded_role(tag):
+def is_excluded(tag):
     while tag is not None:
         # Exclude <div> with role in excluded_roles
         if tag.name == 'div' and tag.get('role') in excluded_roles:
             return True
-        tag = tag.parent
         # Exclude <li> with class "navbar-right"
         if tag.name == 'li' and 'navbar-right' in tag.get('class', []):
             return True
+        tag = tag.parent
     return False
 
 def extract_text_skip_excluded(tag):
-    if is_in_excluded_role(tag):
+    if is_excluded(tag) or tag is None:
         return ''
     
     if tag.name == 'a':
@@ -47,8 +48,8 @@ def extract_text_skip_excluded(tag):
     
     return ' '.join(texts)
 
-def split_html_by_sections(soup: BeautifulSoup, url: str) -> List[Tuple[str, int, str]]:
-    main_div = soup.find('div', id='main')
+def split_html_by_sections(soup: BeautifulSoup, url: str, contentId: str = "main") -> List[Tuple[str, int, str]]:
+    main_div = soup.find('div', id=contentId)
     if not main_div:
         return []
 
@@ -58,7 +59,7 @@ def split_html_by_sections(soup: BeautifulSoup, url: str) -> List[Tuple[str, int
 
     # Iterate over immediate children only (recursive=False)
     for child in main_div.find_all(recursive=False):
-        if is_in_excluded_role(child):
+        if is_excluded(child):
             continue
 
         if child.name in heading_tags:
@@ -84,9 +85,15 @@ def split_html_by_sections(soup: BeautifulSoup, url: str) -> List[Tuple[str, int
 
     return chunks
 
-def crawl_site(driver, start_url, output_file, max_level=2):
+def normalize_url(url):
+    parsed = urlparse(url)
+    # Keep only scheme, netloc, and path
+    return urlunparse((parsed.scheme, parsed.netloc, parsed.path, '', '', ''))
+
+def crawl_site(driver, start_url, output_file, contentId="main", max_level=2):
     domain = urlparse(start_url).netloc
     visited = set()
+    exclude_patterns = ["dashboard", "settings/communication", "account", "appointments"]
     queue = deque([(start_url, 0)])
 
     with open(output_file, mode='w', newline='', encoding='utf-8') as f:
@@ -95,17 +102,21 @@ def crawl_site(driver, start_url, output_file, max_level=2):
 
         while queue:
             url, level = queue.popleft()
-            if url in visited or level > max_level:
+            normalized = normalize_url(url)
+            if normalized in visited or level > max_level or any(pattern in url.lower() for pattern in exclude_patterns) :
                 continue
-            visited.add(url)
+            visited.add(normalized)
 
             try:
                 driver.get(url)
-                time.sleep(1)
+                if "resources/search" in url.lower():
+                    time.sleep(10)
+                else:
+                    time.sleep(1)
 
                 html =  driver.page_source
                 soup = BeautifulSoup(html, 'html.parser')
-                chunks = split_html_by_sections(soup, url)
+                chunks = split_html_by_sections(soup, url, contentId)
                 for row in chunks:
                     writer.writerow(row)
                 
@@ -130,9 +141,6 @@ def crawl_site(driver, start_url, output_file, max_level=2):
 
     print(f"\n✅ Done! Output saved to '{output_file}'")
 
-# --- Configuration ---
-max_level = 2  # ⬅️ Change this to control how deep you want to crawl
-
 # Setup Chrome
 options = Options()
 options.add_argument('--log-level=3')
@@ -141,17 +149,17 @@ options.add_argument('--start-maximized')
 
 driver = webdriver.Chrome(options=options)
 
-start_url = "https://successportal.conestogac.on.ca/"
-driver.get(start_url)
+# start_url = "https://successportal.conestogac.on.ca/students/resources/search/?order=Relevance&topicsUseAnd=true&take=428"
+# driver.get(start_url)
 
-# Wait for user to log in manually
-print("⏳ Waiting for manual login...")
-time.sleep(50)  # You can adjust the time
-crawl_site(driver, start_url, 'data/conestogac_successportal.csv', 2)
-driver.quit()
-
-# crawl_site(driver, 'https://www.conestogac.on.ca/subsidized-training/academic-upgrading', 'data/conestogac.csv', 0)
+# # Wait for user to log in manually
+# print("⏳ Waiting for manual login...")
+# time.sleep(40)  # You can adjust the time
+# crawl_site(driver, start_url, 'data/conestogac_successportal.csv', max_level=5)
 # driver.quit()
+
+crawl_site(driver, 'https://www.conestogac.on.ca', 'data/conestogac.csv', 'maincontent', 4)
+driver.quit()
 
 print(f"\n✅ Crawl completed.")
 
