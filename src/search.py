@@ -1,5 +1,8 @@
-from generateAnswer import generate_answer_with_ollama
+from generateAnswer import answer_with_context
 from search_engine import VectorSearch
+import os
+import warnings
+from urllib3.exceptions import NotOpenSSLWarning
 
 class Faq:
     def __init__(self):
@@ -8,12 +11,15 @@ class Faq:
 
     def get_answer(self, query):
         results = self.vector_search.search(query, top_k=3)
-
         # Combine top-k chunks into a single context string
         context = "\n\n".join([f"{chunk['content']}" for chunk, _ in results])
-        # Generate answer using local LLaMA 3
-        return generate_answer_with_ollama(context, query)
+        if len(context) > 10000:
+            context = context[:10000]
+        # Generate answer
+        return answer_with_context(context, query)
 
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
 faq = Faq()
 
 def answer(question):
@@ -21,14 +27,22 @@ def answer(question):
     answer = faq.get_answer(question)
     print("Answer:\n", answer)
 
-answer("Hi, I’m trying to figure out how to pay my tuition fees.")
-print("\n")
+# answer("Hi, I’m trying to figure out how to pay my tuition fees.")
+# print("\n")
 answer("Thanks. Do I need to pay the full amount at once?")
 print("\n")
 answer("What happens if I miss a payment?")
 print("\n")
 answer("How can apply for scholarship")
 print("\n")
-answer("any financial assistant available")
+answer("any financial assistant available in Ontario")
 print("\n")
-answer("tell me about the AI program provided")
+answer("When is the last day to drop a course without penalty?")
+print("\n")
+answer("Are there any upcoming student events?")
+print("\n")
+answer("Where can I get help with my resume?")
+print("\n")
+answer("Is there a place to workout")
+print("\n")
+answer("Where is the library")
