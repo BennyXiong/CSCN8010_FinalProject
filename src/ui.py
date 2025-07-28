@@ -45,7 +45,13 @@ if "chatbot" not in st.session_state:
 
 # Initialize history
 if "history" not in st.session_state:
-    st.session_state.history = []
+    st.session_state.history = [{
+                "sender": "Lulu",
+                "role": "Student Success Advisor",
+                "avatar": "🟤",
+                "text": "Hello, my name is Lynn, how can I help you today?",
+                "time": datetime.now().strftime("%H:%M")
+            }]
 
 # Open chat-container
 st.markdown("<div class='chat-container'>", unsafe_allow_html=True)
