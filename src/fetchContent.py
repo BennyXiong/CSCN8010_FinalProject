@@ -1,4 +1,5 @@
-from bs4 import BeautifulSoup
+import re
+from bs4 import BeautifulSoup, Comment, Tag, NavigableString
 from urllib.parse import urljoin, urlparse
 from collections import deque
 import csv
@@ -10,76 +11,135 @@ from typing import List, Tuple
 from urllib.parse import urlparse, urlunparse
 
 excluded_roles = {'navigation', 'banner'}
-heading_tags = {'h1', 'h2', 'h3'}
+excluded_classes = {"fas", "fa-fw", "fa-chevron-right", "fa", "fontawesome", "fa-solid"}
 
-# Helper function to check if a tag is inside an excluded-role div
 def is_excluded(tag):
+    # Skip if it's not a Tag (e.g., NavigableString or Comment)
+    if not isinstance(tag, Tag):
+        return False
+
+    excluded_roles = {"navigation", "search", "complementary", "banner"}
+
     while tag is not None:
-        # Exclude <div> with role in excluded_roles
-        if tag.name == 'div' and tag.get('role') in excluded_roles:
-            return True
-        # Exclude <li> with class "navbar-right"
-        if tag.name == 'li' and 'navbar-right' in tag.get('class', []):
-            return True
+        if isinstance(tag, Tag):
+            # Exclude <div> with role
+            if tag.get('role') in excluded_roles:
+                return True
+            # Exclude <li> with class "navbar-right"
+            if tag.name == 'li' and 'navbar-right' in tag.get('class', []):
+                return True
+            if tag.name == 'i':
+                return True
+            # Exclude known non-content tags and FontAwesome icons
+            if tag.name in {'script', 'style', 'noscript', 'i'}:
+                return True
+
         tag = tag.parent
+
     return False
 
-def extract_text_skip_excluded(tag):
-    if is_excluded(tag) or tag is None:
-        return ''
-    
+def extract_leaf_text_blocks(tag: Tag) -> List[str]:
+    if tag is None or is_excluded(tag):
+        return []
+
+    if isinstance(tag, Comment):
+        return []
+
+    if isinstance(tag, NavigableString):
+        text = str(tag).strip()
+        return [text] if text else []
+
+    if isinstance(tag, Tag) and tag.name == 'i':
+        return []  # ✅ completely exclude <i> tags (FontAwesome etc.)
+
+    # Special handling for <a> tags to include text + link
     if tag.name == 'a':
-        href = tag.get('href')
-        return f'[LINK: {href}]' if href else ''
-    
-    if not hasattr(tag, 'children') or not list(tag.children):
-        return tag.get_text(separator=" ", strip=True)
+        href = tag.get('href', '').strip()
+        inner_blocks = []
+        for child in tag.children:
+            inner_blocks.extend(extract_leaf_text_blocks(child))
+        text = ' '.join(inner_blocks).strip()
+        if text:
+            return [f"{text} [LINK: {href}]" if href else text]
+        return []
 
-    texts = []
+    # Leaf node
+    if not list(tag.children):
+        text = tag.get_text(strip=True)
+        return [text] if text else []
+
+    # Traverse children
+    blocks = []
     for child in tag.children:
-        if hasattr(child, 'name'):
-            text = extract_text_skip_excluded(child)
-            if text:
-                texts.append(text)
-        else:
-            text = str(child).strip()
-            if text:
-                texts.append(text)
-    
-    return ' '.join(texts)
+        blocks.extend(extract_leaf_text_blocks(child))
+    return blocks
 
-def split_html_by_sections(soup: BeautifulSoup, url: str, contentId: str = "main") -> List[Tuple[str, int, str]]:
+def split_into_sentences(text: str) -> List[str]:
+    # Simple sentence splitter based on punctuation.
+    # Splits on period, exclamation, question marks followed by space or end of string.
+    sentence_endings = re.compile(r'(?<=[.!?])\s+')
+    sentences = sentence_endings.split(text.strip())
+    return [s.strip() for s in sentences if s.strip()]
+
+def split_html_by_leaf_text(
+    soup: BeautifulSoup,
+    url: str,
+    contentId: str = "main",
+    maxChar: int = 1000,
+    overlap_sentences: int = 2  # Number of sentences to overlap
+) -> List[Tuple[str, int, str]]:
     main_div = soup.find('div', id=contentId)
     if not main_div:
         return []
 
     chunks = []
-    current_chunk = ""
+    chunk_index = 0
+    current_sentences = []
+    current_length = 0
 
-    # Iterate over immediate children only (recursive=False)
+    def flush_chunk():
+        nonlocal chunk_index, current_sentences, current_length
+        if current_sentences:
+            chunk_text = " ".join(current_sentences).strip()
+            chunks.append((url, chunk_index, chunk_text))
+            chunk_index += 1
+            # Keep overlap sentences for next chunk
+            current_sentences = current_sentences[-overlap_sentences:]
+            current_length = sum(len(s) + 1 for s in current_sentences)  # plus one for spaces
+
     for child in main_div.find_all(recursive=False):
         if is_excluded(child):
             continue
 
-        if child.name in heading_tags:
-            # Save previous chunk if exists
-            if current_chunk.strip():
-                chunks.append((url, current_chunk.strip()))
-                current_chunk = ""
+        text_blocks = extract_leaf_text_blocks(child)
+        for block in text_blocks:
+            sentences = split_into_sentences(block)
 
-            # Start new chunk with heading text
-            heading_text = extract_text_skip_excluded(child)
-            if heading_text:
-                current_chunk += heading_text + " "
-        else:
-            # Add text from other tags
-            text = extract_text_skip_excluded(child)
-            if text:
-                current_chunk += text + " "
+            for sentence in sentences:
+                sentence_len = len(sentence) + 1  # plus space
 
-    # Add last chunk if any
-    if current_chunk.strip():
-        chunks.append((url, current_chunk.strip()))
+                # If sentence longer than maxChar, truncate it safely
+                if sentence_len > maxChar:
+                    # flush current chunk first
+                    flush_chunk()
+                    truncated_sentence = sentence[:maxChar].rstrip()
+                    chunks.append((url, chunk_index, truncated_sentence))
+                    chunk_index += 1
+                    current_sentences = []
+                    current_length = 0
+                    continue
+
+                if current_length + sentence_len > maxChar:
+                    # flush current chunk before adding this sentence
+                    flush_chunk()
+
+                current_sentences.append(sentence)
+                current_length += sentence_len
+
+    # Flush any remaining sentences
+    if current_sentences:
+        chunk_text = " ".join(current_sentences).strip()
+        chunks.append((url, chunk_index, chunk_text))
 
     return chunks
 
@@ -96,7 +156,7 @@ def crawl_site(driver, start_url, output_file, contentId="main", max_level=2):
 
     with open(output_file, mode='w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(['url', 'content'])  # Header
+        writer.writerow(['url', 'chunk_number', 'content'])  # Header
 
         while queue:
             url, level = queue.popleft()
@@ -114,7 +174,7 @@ def crawl_site(driver, start_url, output_file, contentId="main", max_level=2):
 
                 html =  driver.page_source
                 soup = BeautifulSoup(html, 'html.parser')
-                chunks = split_html_by_sections(soup, url, contentId)
+                chunks = split_html_by_leaf_text(soup, url, contentId)
                 for row in chunks:
                     writer.writerow(row)
                 
