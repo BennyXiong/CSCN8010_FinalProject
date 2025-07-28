@@ -32,12 +32,12 @@ class VectorSearch:
         self.index = faiss.IndexFlatL2(embeddings.shape[1])
         self.index.add(embeddings)
 
-    def save_index(self, index_path='data/index/faiss.index', meta_path='data/index/texts.pkl'):
+    def save_index(self, index_path='model/faiss.index', meta_path='model/texts.pkl'):
         faiss.write_index(self.index, index_path)
         with open(meta_path, 'wb') as f:
             pickle.dump(self.texts, f)
 
-    def load_index(self, index_path='data/index/faiss.index', meta_path='data/index/texts.pkl'):
+    def load_index(self, index_path='model/faiss.index', meta_path='model/texts.pkl'):
         self.index = faiss.read_index(index_path)
         with open(meta_path, 'rb') as f:
             self.texts = pickle.load(f)
@@ -49,6 +49,6 @@ class VectorSearch:
         return [(self.texts[i], D[0][rank]) for rank, i in enumerate(I[0])]
 
 # searcher = VectorSearch()
-# searcher.build_index_from_folder('data/raw')
+# searcher.build_index_from_folder('data')
 # searcher.save_index()
 # print("✅ Index and metadata saved.")
