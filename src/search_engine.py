@@ -48,7 +48,7 @@ class VectorSearch:
         D, I = self.index.search(query_embedding, top_k)
         return [(self.texts[i], D[0][rank]) for rank, i in enumerate(I[0])]
 
-searcher = VectorSearch()
-searcher.build_index_from_folder('data/raw')
-searcher.save_index()
-print("✅ Index and metadata saved.")
+# searcher = VectorSearch()
+# searcher.build_index_from_folder('data/raw')
+# searcher.save_index()
+# print("✅ Index and metadata saved.")

@@ -1,4 +1,4 @@
-from generateAnswer import answer_with_context
+from generateAnswer import generate_answer_with_openai, generate_answer_with_ollama
 from search_engine import VectorSearch
 import os
 import warnings
@@ -10,13 +10,15 @@ class Faq:
         self.vector_search.load_index()
 
     def get_answer(self, query):
-        results = self.vector_search.search(query, top_k=3)
+        results = self.vector_search.search(query, top_k=10)
+        # for item in results:
+        #     print(item)
         # Combine top-k chunks into a single context string
         context = "\n\n".join([f"{chunk['content']}" for chunk, _ in results])
         if len(context) > 10000:
             context = context[:10000]
         # Generate answer
-        return answer_with_context(context, query)
+        return generate_answer_with_ollama(context, query)
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
@@ -29,20 +31,19 @@ def answer(question):
 
 # answer("Hi, I’m trying to figure out how to pay my tuition fees.")
 # print("\n")
-answer("Thanks. Do I need to pay the full amount at once?")
+# answer("Thanks. Do I need to pay the full amount at once?")
+# print("\n")
+# answer("What happens if I miss a payment?")
+# print("\n")
+# answer("How can apply for scholarship")
+# print("\n")
+answer("any financial assistance available in Ontario")
 print("\n")
-answer("What happens if I miss a payment?")
+# answer("When is the last day to drop a course without penalty?")
+# print("\n")
+# answer("Are there any upcoming student events?")
+# print("\n")
+# answer("Where can I get help with my resume?")
+# print("\n")
+answer("is there a place I can do yoga")
 print("\n")
-answer("How can apply for scholarship")
-print("\n")
-answer("any financial assistant available in Ontario")
-print("\n")
-answer("When is the last day to drop a course without penalty?")
-print("\n")
-answer("Are there any upcoming student events?")
-print("\n")
-answer("Where can I get help with my resume?")
-print("\n")
-answer("Is there a place to workout")
-print("\n")
-answer("Where is the library")
