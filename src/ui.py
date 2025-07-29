@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 from datetime import datetime
 from chatbot import Chatbot
 
@@ -15,21 +16,6 @@ st.markdown("<style>footer {visibility: hidden;}</style>", unsafe_allow_html=Tru
 # Custom CSS
 st.markdown("""
     <style>
-        .chat-container {
-            display: flex;
-            flex-direction: column;
-            height: 50vh;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            padding: 10px;
-            overflow: hidden;
-        }
-        .chat-history {
-            flex: 1;
-            overflow-y: auto;
-            padding-right: 10px;
-            margin-bottom: 10px;
-        }
         .chat-input {
             border-top: 1px solid #eee;
             padding-top: 10px;
@@ -49,42 +35,27 @@ if "history" not in st.session_state:
                 "sender": "Lulu",
                 "role": "Student Success Advisor",
                 "avatar": "🟤",
-                "text": "Hello, my name is Lynn, how can I help you today?",
+                "text": "Hello, my name is Lulu, how can I help you today?",
                 "time": datetime.now().strftime("%H:%M")
             }]
 
-# Open chat-container
-st.markdown("<div class='chat-container'>", unsafe_allow_html=True)
-# --- Chat history ---
-st.markdown("<div class='chat-history'>", unsafe_allow_html=True)
+# --- Build the chat history HTML ---
+chat_body = ""
 
 for msg in st.session_state.history:
     if msg.get("sender") == "System":
-        st.markdown(
-            f"<div style='text-align:center; color: gray; font-size: 12px; margin: 10px 0;'>{msg['text']}</div>",
-            unsafe_allow_html=True,
-        )
+        chat_body += f"<div style='text-align:center; color: gray; font-size: 12px; margin: 10px 0;'>{msg['text']}</div>"
     else:
         align = "left" if msg["sender"] != "You" else "right"
         bubble_color = "#daf4fa"
         avatar = msg.get("avatar", "👤")
+        chat_body += f"<div style='display:flex; flex-direction:{'row' if align == 'left' else 'row-reverse'}; margin-bottom:10px;'><div style='font-size:24px; margin:0 10px;'>{avatar}</div><div><div style='font-weight:bold; font-size:13px;'>{msg['sender']}</div><div style='font-size:11px; color:gray;'>{msg.get('role', '')}</div><div style='background-color:{bubble_color}; color:black; padding:10px; border-radius:10px; max-width:600px; margin-top:4px;'>{msg['text']}</div></div></div>"
 
-        st.markdown(
-            f"""
-            <div style='display:flex; flex-direction:{"row" if align == "left" else "row-reverse"}; margin-bottom:10px;'>
-                <div style='font-size:24px; margin:0 10px;'>{avatar}</div>
-                <div>
-                    <div style='font-weight:bold; font-size:13px;'>{msg["sender"]}</div>
-                    <div style='font-size:11px; color:gray;'>{msg.get("role", "")}</div>
-                    <div style='background-color:{bubble_color}; color:black; padding:10px; border-radius:10px; max-width:600px; margin-top:4px;'>
-                        {msg["text"]}
-                    </div>
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True,
-    )
-st.markdown("</div>", unsafe_allow_html=True)  # Close chat-history
+# Scroll to bottom using JavaScript
+full_html = f"<div id='chat-box' style='height: 350px; overflow-y: auto; border: 1px solid #ccc; padding-right: 10px; border-radius: 10px;'>{chat_body}</div><script>var chatBox = document.getElementById('chat-box'); if (chatBox) {{ chatBox.scrollTop = chatBox.scrollHeight; }}</script>"
+
+# Render using components.html (not st.markdown)
+components.html(full_html, height=350)
 
 # If input was previously stored, clear it before rendering the input box
 if "clear_input" in st.session_state:
@@ -104,7 +75,8 @@ if user_input:
         "time": datetime.now().strftime("%H:%M")
     })
 
-    reply = st.session_state.chatbot.get_answer(user_input)
+    # reply = st.session_state.chatbot.get_answer(user_input)
+    reply = "answering...."
     st.session_state.history.append({
         "sender": "Lulu",
         "role": "Student Success Advisor",
@@ -116,4 +88,3 @@ if user_input:
     st.rerun()
 
 st.markdown("</div>", unsafe_allow_html=True)  # Close chat-input
-st.markdown("</div>", unsafe_allow_html=True)  # Close chat-container
