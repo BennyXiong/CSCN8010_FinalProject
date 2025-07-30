@@ -32,7 +32,7 @@ class Chatbot:
 #     "Thanks. Do I need to pay the full amount at once?",
 #     "How do I make a payment?",
 #     "What happens if I miss a payment?",
-#     "Can I have an extension/ installment plan of my payment due",
+#     "Can I have an extension/ instalment plan of my payment due",
 #     "Why has my payment not been posted to the Student Portal/ Can you confirm my payment",
 #     "How do I pay for a course on Held Enrolment",
 #     "How can apply for scholarship",
