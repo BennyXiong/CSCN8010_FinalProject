@@ -8,6 +8,8 @@ import os
 import pickle
 from glob import glob
 
+from config import SearchConfig
+
 class VectorSearch:
     def __init__(self, model_name='all-MiniLM-L6-v2'):
         self.model = SentenceTransformer(model_name)
@@ -37,18 +39,8 @@ class VectorSearch:
         with open(meta_path, 'wb') as f:
             pickle.dump(self.texts, f)
 
-    def load_index(self, index_path='model/faiss.index', meta_path='model/texts.pkl'):
-        self.index = faiss.read_index(index_path)
-        with open(meta_path, 'rb') as f:
-            self.texts = pickle.load(f)
-
-    def search(self, query, top_k=5):
-        query_embedding = self.model.encode([query])
-        query_embedding = np.array(query_embedding).astype('float32')  # Ensure float32
-        D, I = self.index.search(query_embedding, top_k)
-        return [(self.texts[i], D[0][rank]) for rank, i in enumerate(I[0])]
-
-# searcher = VectorSearch()
-# searcher.build_index_from_folder('data')
-# searcher.save_index()
-# print("✅ Index and metadata saved.")
+config = SearchConfig()
+searcher = VectorSearch()
+searcher.build_index_from_folder(config.data_folder)
+searcher.save_index(index_path=config.index_path, meta_path=config.meta_path)
+print("✅ Index and metadata saved.")
