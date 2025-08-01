@@ -28,7 +28,7 @@ class VectorSearch:
                 all_texts.extend(df['content'].astype(str).tolist())
                 all_records.extend(df[['url', 'chunk_number', 'content']].to_dict(orient='records'))
 
-        self.texts = all_records  # Store metadata for each chunk
+        self.texts = list(dict.fromkeys(all_records))  # Store metadata for each chunk
         embeddings = self.model.encode(all_texts, show_progress_bar=True)
         embeddings = np.array(embeddings).astype('float32')  # FAISS needs float32
         self.index = faiss.IndexFlatL2(embeddings.shape[1])

@@ -1,13 +1,13 @@
 from generateAnswer import generate_answer_with_openai, generate_answer_with_ollama
-from preprocessing import VectorSearch
 import os
 import warnings
 from urllib3.exceptions import NotOpenSSLWarning
 
+from searchEngine import FaissSearchEngine
+
 class Chatbot:
     def __init__(self):
-        self.vector_search = VectorSearch()
-        self.vector_search.load_index()
+        self.vector_search = FaissSearchEngine()
 
     def get_answer(self, query):
         results = self.vector_search.search(query, top_k=10)
@@ -16,19 +16,19 @@ class Chatbot:
         if len(context) > 10000:
             context = context[:10000]
         # Generate answer
-        return generate_answer_with_openai(context, query)
+        return generate_answer_with_ollama(context, query)
 
-# os.environ["TOKENIZERS_PARALLELISM"] = "false"
-# warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
-# chatbot = Chatbot()
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
+chatbot = Chatbot()
 
-# def answer(question):
-#     print (f"{question}\n")
-#     answer = chatbot.get_answer(question)
-#     print(f"Answer:\n{answer}\n")
+def answer(question):
+    print (f"{question}\n")
+    answer = chatbot.get_answer(question)
+    print(f"Answer:\n{answer}\n")
 
-# questions = [
-    # "Hi, I'm trying to figure out how to pay my tuition fees.",
+questions = [
+    "Hi, I'm trying to figure out how to pay my tuition fees.",
     # "Thanks. Do I need to pay the full amount at once?",
     # "How do I make a payment?",
     # "What happens if I miss a payment?",
@@ -45,7 +45,7 @@ class Chatbot:
     # "I can't see my Timetable",
     # "How do I withdraw from my program",
     # "How do I change my block or add/drop a course"
-# ]
+]
 
-# for question in questions:
-#     answer(question)
+for question in questions:
+    answer(question)
