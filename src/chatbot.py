@@ -1,9 +1,9 @@
-from generateAnswer import generate_answer_with_openai, generate_answer_with_ollama
+from handlers.generateAnswer import generate_answer_with_openai, generate_answer_with_ollama
 import os
 import warnings
 from urllib3.exceptions import NotOpenSSLWarning
 
-from searchEngine import FaissSearchEngine
+from handlers.searchEngine import FaissSearchEngine
 
 class Chatbot:
     def __init__(self):
