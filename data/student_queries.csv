@@ -1,0 +1,1501 @@
+datetime,student,question,intent,is_distressed
+2025-07-04 14:07:23,Shannon Austin,What topics will be covered in the AI course?,Course Information,0
+2025-07-04 16:13:28,Stephanie Calhoun,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-04 16:19:28,Kevin Garcia,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-04 16:55:20,Lisa Duran,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-04 17:08:35,Jeff Rangel,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-04 17:09:19,Tracy Rangel,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-04 17:16:23,Steven Harrell,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-04 17:40:02,Betty Richardson,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-04 17:40:04,Catherine Jefferson,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-04 18:24:47,Keith Park,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-04 18:28:23,Dillon Washington,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-04 18:41:41,Christopher Williams,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-04 19:03:56,Robert Gonzales,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-04 19:27:41,Stacy Cooper,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-04 19:27:56,Dr. Stephanie Riley DDS,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-04 19:55:52,Krista Flores,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-04 20:02:51,Brandon Logan,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-04 20:12:41,Patricia Pierce,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-04 20:23:14,Taylor Jones,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-04 20:41:17,Isabella Rice,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-04 22:09:14,Amy Montoya,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-04 22:40:58,Nancy Thompson,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-04 23:19:24,Luis Poole,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-04 23:47:43,Daniel Peterson,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-04 23:48:16,Mary Griffith,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-05 00:00:46,Daniel Clayton,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-05 00:01:37,Gregory Moore,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-05 00:06:22,Andrea Ramirez,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-05 00:21:33,Jennifer Roberts,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-05 00:27:12,Anthony Fitzpatrick,Can you provide more details about this course?,Course Information,0
+2025-07-05 01:07:31,Leonard Wagner,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-05 01:25:18,Daniel Gordon,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-05 01:50:20,Kerry Contreras,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-05 02:07:54,Traci Jimenez,When does the gym open?,Campus Facilities,0
+2025-07-05 02:12:53,Zachary Benson,What topics will be covered in the AI course?,Course Information,0
+2025-07-05 02:28:31,Michelle Parrish,The exam schedule was very confusing.,General Complaint,1
+2025-07-05 02:50:30,Samantha Kennedy,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-05 04:11:49,Mark Reid,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-05 04:46:19,Andrew Torres,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-05 04:59:33,Carolyn Goodman,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-05 05:06:10,Michael Hernandez,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-05 05:34:23,John Baker,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-05 05:43:25,Jordan Dunn,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-05 05:54:37,William Webster,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-05 06:24:44,Jacqueline Patrick,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-05 06:27:19,Shannon Sherman,When does the gym open?,Campus Facilities,0
+2025-07-05 07:01:02,Brian Gutierrez,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-05 07:06:59,Jacob Lowe,The exam schedule was very confusing.,General Complaint,1
+2025-07-05 08:40:37,Charles Frey,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-05 08:58:31,Jessica Grant,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-05 09:19:30,Tonya Torres,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-05 09:37:18,Jacqueline Wilson,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-05 11:08:15,Ashley Wyatt,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-05 12:12:24,Shawn Wu,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-05 13:22:03,Justin Stevens,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-05 13:22:52,Jonathan Clark,How do I join student clubs?,Extracurricular Activities,0
+2025-07-05 13:35:41,Jeffrey Peterson,What topics will be covered in the AI course?,Course Information,0
+2025-07-05 13:52:29,Nicholas Duncan,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-05 14:21:16,James Williams,The exam schedule was very confusing.,General Complaint,1
+2025-07-05 14:37:47,Emily Hayes,How do I join student clubs?,Extracurricular Activities,0
+2025-07-05 14:59:02,Sheila Richardson,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-05 15:07:03,Howard Hernandez,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-05 15:14:10,Christopher Dyer,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-05 16:05:31,Eddie Burton,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-05 16:12:39,Monique Perry,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-05 16:22:07,Lynn Bradley,What topics will be covered in the AI course?,Course Information,0
+2025-07-05 16:28:56,Donald Shepherd,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-05 16:48:00,Patricia Wright,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-05 17:54:40,Richard Knight,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-05 18:53:28,Harold Howard,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-05 19:45:11,Zachary Williams,Can you provide more details about this course?,Course Information,0
+2025-07-05 19:46:58,Justin Glass,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-05 21:23:08,Michael Ayers,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-05 21:24:21,Heather Campos,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-05 21:56:04,Larry Walker,The exam schedule was very confusing.,General Complaint,1
+2025-07-05 22:40:02,Abigail Murphy,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-05 23:04:59,Ronald Thomas MD,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-05 23:06:24,James Brennan,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-06 00:09:53,Dawn Cardenas,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-06 00:17:53,Samuel Richards,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-06 00:26:37,Janice English,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-06 00:42:50,Jason King II,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-06 00:43:47,Janice Rodriguez,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-06 01:07:56,Kevin Tapia,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-06 01:12:02,Alexandria Jackson,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-06 01:37:34,Lisa Williams,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-06 01:37:52,Elizabeth Jones,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-06 01:48:57,Emily Palmer,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-06 01:59:53,Molly Griffin,What topics will be covered in the AI course?,Course Information,0
+2025-07-06 02:20:31,Michelle Douglas,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-06 02:20:33,William Richard,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-06 02:25:20,Taylor Jacobs,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-06 03:26:13,Jennifer Cowan,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-06 03:52:42,Cathy Smith,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-06 04:12:05,Timothy Faulkner,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-06 04:46:40,James Pena,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-06 05:59:41,David Nguyen,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-06 06:01:12,Teresa Shaw,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-06 07:32:54,Lisa Simmons,When does the gym open?,Campus Facilities,0
+2025-07-06 07:55:05,Nicole Robinson,How do I join student clubs?,Extracurricular Activities,0
+2025-07-06 08:50:49,Matthew Johnson,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-06 09:36:19,Desiree Simmons,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-06 09:36:59,Lisa Powers,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-06 12:12:41,William Nguyen,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-06 12:27:46,Jeffery Thomas,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-06 12:34:15,Kristi Flores,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-06 13:06:04,Sherry Sanchez,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-06 13:19:00,Aaron White,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-06 13:30:07,Melanie Jacobson,What topics will be covered in the AI course?,Course Information,0
+2025-07-06 14:32:04,Erika Ballard,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-06 14:39:32,Steven Sanchez,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-06 15:18:00,Rachel Robinson,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-06 15:22:10,Tiffany Austin,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-06 16:17:43,Phyllis Johnson,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-06 16:43:24,Gregory Owens,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-06 17:21:03,Jessica Warren,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-06 17:43:45,Taylor Mccall,How do I join student clubs?,Extracurricular Activities,0
+2025-07-06 17:48:54,Zachary Morrow,What topics will be covered in the AI course?,Course Information,0
+2025-07-06 18:27:14,Richard Mitchell,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-06 20:06:42,Norma Payne,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-06 20:13:51,Tammy Hanna,The exam schedule was very confusing.,General Complaint,1
+2025-07-06 20:20:19,Hunter Flores,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-06 23:13:15,Hannah Valdez,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-06 23:46:14,Joanna Ramos,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-07 01:22:06,Maria Dalton,Can you provide more details about this course?,Course Information,0
+2025-07-07 02:19:39,James Miller,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-07 03:59:13,Benjamin Young,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-07 04:13:53,Aaron Thompson,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-07 04:18:54,Anna Huang,The exam schedule was very confusing.,General Complaint,1
+2025-07-07 05:13:43,Blake Cole,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-07 05:20:25,Jessica Tran,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-07 05:55:33,Wendy Ramirez,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-07 06:56:30,Mr. Charles Gilmore,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-07 07:36:31,Julian Miller,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-07 07:53:10,Michael Thomas,How do I join student clubs?,Extracurricular Activities,0
+2025-07-07 07:54:06,James Smith,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-07 07:59:38,Sabrina Cook,How do I join student clubs?,Extracurricular Activities,0
+2025-07-07 08:10:59,Patricia Weaver,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-07 08:46:28,Julie Walker,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-07 08:56:40,Michael Allen,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-07 09:47:13,Marie Rowland,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-07 09:49:36,Laura King,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-07 10:24:11,Andrew Mccarthy,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-07 10:28:02,Stephanie Miller,The exam schedule was very confusing.,General Complaint,1
+2025-07-07 10:37:37,Shane Montoya,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-07 10:39:16,Kevin Hernandez DDS,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-07 11:25:50,Christopher Mccullough,Can you provide more details about this course?,Course Information,0
+2025-07-07 11:51:37,Andrew Black,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-07 15:07:32,Mark Vargas,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-07 15:48:20,Bonnie Hale,The exam schedule was very confusing.,General Complaint,1
+2025-07-07 16:36:30,John Brady,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-07 17:06:43,Michaela Tran,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-07 18:04:40,Michael Nicholson MD,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-07 18:06:45,Tracey Mccarty,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-07 18:07:52,Linda Simpson,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-07 19:11:23,Patrick Thornton,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-07 19:56:00,Larry Brown,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-07 20:02:04,Laura Roberts,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-07 21:31:19,Richard Spencer,How do I join student clubs?,Extracurricular Activities,0
+2025-07-07 22:29:57,Mr. Christopher Hughes,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-07 22:55:16,Melissa Hood,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-07 23:28:50,Bobby Parker,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-08 00:16:05,Tony Esparza,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-08 00:44:20,Ryan Allison,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-08 00:56:44,Cynthia Harris,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-08 01:03:07,Emily Ramirez,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-08 01:05:18,Hannah Rodriguez,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-08 01:12:27,Allen Estrada,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-08 01:28:12,Daniel Gibson,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-08 01:30:23,Victoria Lynch,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-08 02:12:07,Michael Anderson,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-08 02:25:07,Ernest Powell,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-08 02:51:52,Matthew Cooke,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-08 03:22:42,Shelley Lee,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-08 04:41:48,Crystal Little,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-08 04:42:23,Debra Davis,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-08 05:20:46,Justin Gross,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-08 05:41:15,Elizabeth Nash,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-08 05:41:19,Emily Black,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-08 05:42:10,Sarah Powers,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-08 05:57:10,Lindsay Mckee,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-08 06:20:11,Larry Hart,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-08 06:21:05,Stephanie Rodriguez,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-08 06:22:03,Tristan Ryan,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-08 06:36:47,Michael Lee,How do I join student clubs?,Extracurricular Activities,0
+2025-07-08 06:56:29,Sharon Cobb,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-08 07:18:12,Cynthia Owens,The exam schedule was very confusing.,General Complaint,1
+2025-07-08 07:20:59,Michelle Sandoval,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-08 07:35:28,Jennifer Braun,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-08 08:12:16,Jacqueline Smith,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-08 08:31:47,Jessica Smith,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-08 08:48:15,Misty Gutierrez,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-08 09:40:45,Steven Bailey,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-08 10:02:17,Jason Ryan,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-08 10:14:46,Andrew Mathews,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-08 11:20:09,Michael Sullivan,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-08 11:28:14,Debbie Pearson,Can you provide more details about this course?,Course Information,0
+2025-07-08 13:06:16,William Hale,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-08 13:44:05,Paula Kirby,How do I join student clubs?,Extracurricular Activities,0
+2025-07-08 14:10:38,Becky James,How do I join student clubs?,Extracurricular Activities,0
+2025-07-08 14:43:20,Madison Robertson,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-08 14:56:02,Benjamin Cox,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-08 16:59:55,John Moore,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-08 17:20:06,Kathleen Obrien,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-08 17:22:16,Taylor Spencer,Can you provide more details about this course?,Course Information,0
+2025-07-08 18:07:18,Kenneth Bailey,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-08 18:28:31,Sheryl Lopez,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-08 19:09:45,Jennifer Campos,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-08 19:10:06,Nancy Newton,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-08 20:07:37,Dr. Amanda Kelley,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-08 20:20:53,Robert Stephens,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-08 21:49:49,Beverly Tapia,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-08 22:04:52,Sheila Hunter,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-08 22:16:13,Dave Poole,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-08 22:37:30,John Miller,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-08 22:51:09,Sabrina Nguyen,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-08 23:06:53,Daniel Salazar,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-08 23:14:00,Travis Alvarez,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-09 00:52:33,Robert Koch,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-09 01:01:29,John Gordon,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-09 01:03:57,Mary Long,The exam schedule was very confusing.,General Complaint,1
+2025-07-09 01:22:36,John Spencer,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-09 01:57:12,Destiny Cook,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-09 02:49:24,Daniel George,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-09 02:56:07,Mrs. Ashley Chambers,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-09 03:55:32,Steve Aguirre MD,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-09 04:00:52,Jill Hamilton,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-09 04:40:23,Gary Walls,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-09 04:48:33,Allison Lewis,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-09 05:11:41,Stephanie Collier,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-09 05:19:49,Lauren Harrington,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-09 05:52:19,Austin Kerr,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-09 06:17:23,Matthew Woods,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-09 06:58:33,Joshua Anderson,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-09 07:04:06,Alexis Long,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-09 07:14:33,Faith Newman,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-09 07:25:35,David Bradshaw,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-09 07:28:16,Latoya Mooney,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-09 08:34:24,Lisa Kirby,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-09 09:20:47,Jeffery Sutton,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-09 09:56:48,Jillian Patel,The exam schedule was very confusing.,General Complaint,1
+2025-07-09 10:15:32,Dale Norman,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-09 11:06:50,Tammy Castro,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-09 12:38:54,Emily Smith,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-09 13:19:30,Richard Hall,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-09 15:39:28,Jeff Rice,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-09 16:21:13,Robert Fletcher,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-09 16:59:24,Trevor Barnes,Can you provide more details about this course?,Course Information,0
+2025-07-09 17:11:13,David Gardner,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-09 18:16:11,Ryan Hooper,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-09 19:34:44,Eric Berger,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-09 20:14:07,Elizabeth Chan,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-09 20:39:01,Marie Moore,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-09 20:42:59,Brenda Clark,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-09 20:52:52,John King,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-09 21:08:07,Lawrence Ellis,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-09 21:09:16,Pamela Rodriguez,What topics will be covered in the AI course?,Course Information,0
+2025-07-09 21:30:25,David Chambers,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-09 21:31:49,Jennifer Richard,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-09 21:50:43,Alfred Williamson,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-09 21:52:58,Kelly Fry,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-09 21:54:54,Eric Wolf,When does the gym open?,Campus Facilities,0
+2025-07-09 21:58:40,Wendy Griffin,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-09 23:04:54,Christina Ferguson,When does the gym open?,Campus Facilities,0
+2025-07-09 23:53:30,Mary Odom,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-10 00:00:41,Austin Powell,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-10 00:09:24,Joel Jones,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-10 01:15:47,Gregory Gonzalez,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-10 01:31:06,Ashley Gillespie,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-10 01:54:36,Tammy Butler,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-10 02:02:16,Dominic Watson,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-10 03:38:42,Duane Wilkerson,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-10 03:38:54,Julie Newman,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-10 03:45:16,Carl Warner,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-10 03:46:19,Brianna Reynolds,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-10 05:17:14,Mark Griffith,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-10 06:35:53,Dawn Hines,What topics will be covered in the AI course?,Course Information,0
+2025-07-10 07:17:40,Steven Walker,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-10 07:39:32,Michael Hester,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-10 08:07:03,Kristi Evans,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-10 08:21:38,Cheryl Forbes,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-10 08:59:26,Charles Villa,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-10 09:47:23,David Smith,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-10 10:10:18,Manuel Pearson,When does the gym open?,Campus Facilities,0
+2025-07-10 10:39:39,Thomas Love,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-10 11:40:52,Elizabeth Lewis,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-10 11:43:56,Samantha Rios,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-10 12:08:30,Geoffrey Bell,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-10 12:34:20,Jeremy Stevens,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-10 12:41:54,Christian Bridges,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-10 13:30:58,Charles Scott,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-10 15:06:02,James Sanders,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-10 15:08:47,Jared Gardner,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-10 15:39:33,Sandra Bentley,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-10 15:50:20,Christopher Mahoney,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-10 16:06:46,Angela Velazquez,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-10 16:14:29,Harold Peters,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-10 16:59:04,Carrie Williams,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-10 17:15:57,Hayley Payne,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-10 17:50:28,Erika Smith,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-10 17:59:27,Zachary Little,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-10 18:16:21,Pamela Lopez,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-10 19:50:57,Brandon Fisher,Can you provide more details about this course?,Course Information,0
+2025-07-10 19:59:00,Anna Martinez,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-10 21:19:18,James Hernandez,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-10 22:32:20,Ethan Haynes,When does the gym open?,Campus Facilities,0
+2025-07-10 23:02:09,Lauren Carlson,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-10 23:16:14,Tasha Barajas,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-10 23:30:17,Mr. Vincent Jackson,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-11 00:25:24,Jill Harris,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-11 01:38:53,Fernando Palmer,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-11 01:42:51,Richard Martin,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-11 03:03:06,Lauren Bailey,When does the gym open?,Campus Facilities,0
+2025-07-11 03:19:37,Linda Melendez,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-11 05:00:24,Jeffery Gomez,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-11 05:07:50,Tina Haas,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-11 05:24:59,Michael Miller,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-11 05:48:28,Valerie Perry,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-11 06:54:22,Dr. Randy Rios,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-11 08:16:32,Tyler Elliott,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-11 08:21:29,Nathan Davis,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-11 09:05:05,Joseph Chang,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-11 10:08:01,Timothy Hill,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-11 10:36:44,Gregory Pearson,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-11 10:38:45,Louis Powell,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-11 13:07:28,Frank Shaw,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-11 13:46:50,Tamara Carr,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-11 14:04:06,Laura Johnson,The exam schedule was very confusing.,General Complaint,1
+2025-07-11 14:48:43,Erin Jenkins,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-11 15:00:22,Amy Holloway,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-11 15:03:01,Nicholas Jones,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-11 15:06:51,Jessica Harris,Can you provide more details about this course?,Course Information,0
+2025-07-11 15:34:48,Michael Thompson,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-11 15:46:21,Brandon Pope,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-11 15:59:42,Melissa Forbes,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-11 16:29:53,Christine Rodriguez,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-11 16:45:26,Juan Gallegos,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-11 16:46:41,Scott Turner,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-11 17:20:10,Thomas Pierce,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-11 17:49:57,Jennifer Bowman,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-11 17:52:21,Terry Snyder,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-11 18:18:52,Lisa Moon,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-11 18:29:34,Richard Perez,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-11 18:35:20,Cynthia Garcia,The exam schedule was very confusing.,General Complaint,1
+2025-07-11 18:52:15,Aaron Anderson,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-11 19:11:29,Valerie Sanders DDS,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-11 19:26:48,Victoria Hardy,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-11 19:29:52,Jordan Eaton,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-11 19:36:11,Derek Phillips,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-11 20:06:39,Monique Spears,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-11 20:07:22,Teresa Guzman,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-11 20:35:22,Stefanie Cunningham,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-11 20:43:15,Cheryl Brown,How do I join student clubs?,Extracurricular Activities,0
+2025-07-11 20:51:34,Larry Hoffman,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-11 21:03:48,Terri Smith,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-11 21:36:16,Christy Bell,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-11 23:05:11,Tammy Davis,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-11 23:05:35,Jennifer Howard,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-11 23:19:39,Cesar Goodwin,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-11 23:30:40,Linda Garner,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-12 00:08:34,Briana Sullivan,What topics will be covered in the AI course?,Course Information,0
+2025-07-12 00:14:35,Pamela Bailey,How do I join student clubs?,Extracurricular Activities,0
+2025-07-12 00:47:52,Michael Torres,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-12 01:13:27,James Rubio,How do I join student clubs?,Extracurricular Activities,0
+2025-07-12 01:29:10,Yolanda Webb,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-12 01:33:12,James Gonzalez,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-12 01:35:39,Tracy Pugh,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-12 02:50:00,Joseph Russell,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-12 03:38:28,Tamara Collins,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-12 03:39:37,Ronnie Martinez,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-12 04:37:51,Robin Williams,What topics will be covered in the AI course?,Course Information,0
+2025-07-12 04:44:03,Penny Benson,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-12 05:20:18,Kristopher Grant,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-12 05:47:10,Lori Jenkins,What topics will be covered in the AI course?,Course Information,0
+2025-07-12 05:52:14,Ruth Brown,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-12 06:06:39,Nicole Allen,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-12 06:10:52,Dustin Allen,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-12 06:42:59,Corey Gonzales,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-12 07:15:22,Jimmy Allen,What topics will be covered in the AI course?,Course Information,0
+2025-07-12 07:16:19,Christopher Gardner,What topics will be covered in the AI course?,Course Information,0
+2025-07-12 07:31:15,Carol Rivas,What topics will be covered in the AI course?,Course Information,0
+2025-07-12 07:39:39,Gerald Perkins,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-12 07:53:19,Brendan Sanchez,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-12 07:54:36,Cameron Higgins,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-12 07:57:27,Elizabeth Khan,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-12 08:03:31,Keith Jefferson,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-12 08:05:50,John Murray,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-12 10:02:33,Nicholas Peters,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-12 10:03:12,Jesse Fisher,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-12 10:54:45,Logan Larson,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-12 11:42:13,Alicia Anthony,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-12 11:52:51,Kendra Schneider,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-12 12:14:05,Andrew Walters,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-12 12:20:55,Douglas Reyes,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-12 12:40:02,Brett Owens,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-12 13:32:13,Kimberly Perkins,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-12 14:41:06,Fernando Russo,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-12 14:58:17,Tony Dickson,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-12 15:45:10,Donna Adams,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-12 16:00:17,Christopher Salas,How do I join student clubs?,Extracurricular Activities,0
+2025-07-12 16:03:23,Joshua West,What topics will be covered in the AI course?,Course Information,0
+2025-07-12 16:15:14,Kelly Hall,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-12 16:24:20,James Watkins,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-12 17:07:25,Kim Reid,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-12 17:27:32,Keith Sparks,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-12 17:40:36,Ruth Barr,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-12 19:08:48,Michael Johnson,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-12 19:22:21,Eric Cox,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-12 19:45:02,Kathleen Meyer,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-12 21:01:31,Kathryn Cortez,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-12 21:11:42,Maxwell Ward,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-12 21:11:58,Katherine Davidson,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-12 21:44:53,Patrick Dixon,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-12 22:08:08,Carolyn Hansen,Can you provide more details about this course?,Course Information,0
+2025-07-12 22:48:14,Steven Bell,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-12 22:59:01,Donna Watson,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-12 23:10:14,Sarah Davis,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-13 01:14:56,Mr. Brian Scott,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-13 01:26:37,Robin Bell,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-13 01:32:04,Roger Bernard,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-13 02:27:53,Nicole Morris,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-13 02:35:17,Sean Patel,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-13 02:43:49,Mr. Christopher Smith,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-13 02:57:30,Danielle Moss,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-13 04:17:14,Jennifer Johnson,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-13 05:14:55,Nicole Burton,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-13 05:29:45,Steven Singh,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-13 05:42:41,David Vazquez,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-13 05:43:09,Austin Warren,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-13 06:30:01,Michael Cherry,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-13 06:56:29,Leslie Poole,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-13 07:01:19,Heather Todd,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-13 07:07:32,Allen Brown,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-13 07:10:16,Beverly Johnson,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-13 07:18:43,Kelsey Burton,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-13 08:17:25,Tyrone Murray,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-13 08:27:57,Patricia Thomas,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-13 08:45:01,Karen Mitchell,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-13 09:16:14,Philip Andrews II,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-13 09:21:18,Krystal Torres,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-13 09:39:50,Brooke Price,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-13 10:01:18,Kim David,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-13 10:58:20,Michael Boyd,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-13 11:28:16,James Schneider,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-13 11:29:40,Sarah Carrillo MD,When does the gym open?,Campus Facilities,0
+2025-07-13 13:11:00,Robert Parrish,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-13 13:18:35,Aaron Mitchell,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-13 13:30:21,Ryan Stanton,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-13 14:43:46,Nicole Anderson,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-13 15:03:45,Julia Sellers,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-13 15:59:52,James Lopez,Can you provide more details about this course?,Course Information,0
+2025-07-13 16:32:12,Melissa Jordan,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-13 17:13:30,Elizabeth Williams,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-13 17:42:15,Brian Parrish,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-13 17:59:32,Michael Allen,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-13 18:34:09,Mary Orr,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-13 18:36:10,Richard Scott,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-13 18:45:46,Sherry Mccoy,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-13 19:16:14,Jessica Hawkins,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-13 19:43:35,Matthew Simon,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-13 20:03:19,Philip Abbott,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-13 20:28:08,Charles Fernandez,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-13 21:37:53,Jeffrey Dixon,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-13 21:41:04,David Burton,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-13 21:45:28,Dawn Joseph,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-13 22:48:17,Lisa Rogers DDS,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-13 22:58:48,Jennifer Watkins,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-13 22:59:18,Lauren Holt,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-13 22:59:28,Courtney Kline,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-13 23:29:04,Steven Dougherty,The exam schedule was very confusing.,General Complaint,1
+2025-07-13 23:45:08,Andrew Potter,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-14 00:18:04,Chelsey Taylor,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-14 01:28:18,Kimberly Young,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-14 01:53:02,Marvin Ryan,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-14 02:20:59,Miguel Hughes,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-14 02:30:55,Amber Greene,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-14 02:31:39,Mrs. Jennifer Carter,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-14 02:34:48,Barbara Osborne,When does the gym open?,Campus Facilities,0
+2025-07-14 02:44:02,Thomas Parker,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-14 03:04:24,John Adams,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-14 03:22:00,Valerie Bradley,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-14 03:34:31,Bryan Ingram,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-14 04:09:42,Michelle Thomas,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-14 04:54:02,Erin Hodge,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-14 04:57:52,Keith White,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-14 07:53:54,Debra Dunn,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-14 08:59:22,Jessica Lee,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-14 09:15:35,Matthew Ruiz,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-14 09:16:45,Nicole Hobbs,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-14 10:08:07,Brenda Hall,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-14 11:30:32,Stacy Johnson,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-14 11:54:35,Andrew Mathis,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-14 12:09:33,Richard Walter,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-14 12:14:42,Nicholas Lyons,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-14 12:47:24,Glenn West,What topics will be covered in the AI course?,Course Information,0
+2025-07-14 12:53:37,Ian Johnson,When does the gym open?,Campus Facilities,0
+2025-07-14 12:57:06,Barbara Garcia,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-14 14:04:33,Edwin Richards,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-14 14:47:38,Crystal Garcia,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-14 15:06:51,Heather Davis,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-14 15:52:41,Justin Wallace,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-14 15:55:24,Samuel Bowers,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-14 16:20:20,Andrea Wise DVM,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-14 16:30:47,George Powers,How do I join student clubs?,Extracurricular Activities,0
+2025-07-14 16:50:41,Nicole Johnston,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-14 19:05:09,Blake Vance,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-14 19:06:46,Sarah Clayton,Can you provide more details about this course?,Course Information,0
+2025-07-14 19:21:36,Bruce Patel,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-14 19:33:36,Danielle Gordon MD,When does the gym open?,Campus Facilities,0
+2025-07-14 20:07:04,Eric Bright,What topics will be covered in the AI course?,Course Information,0
+2025-07-14 21:08:08,Robert Rivera,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-14 21:28:28,Kim Washington,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-14 22:12:58,Peter Henry,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-14 23:31:35,Stacy Johnson,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-14 23:38:08,Cathy West,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-14 23:47:20,Heather Oneill,Can you provide more details about this course?,Course Information,0
+2025-07-15 01:40:19,Julia Clark,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-15 02:06:33,John White,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-15 03:13:33,Kyle Duarte,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-15 05:57:54,Erin Hall,Can you provide more details about this course?,Course Information,0
+2025-07-15 05:59:31,Adam Rodgers,Can you provide more details about this course?,Course Information,0
+2025-07-15 06:21:21,Randall Murphy,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-15 07:16:16,Dr. Jeremy Velazquez,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-15 07:36:41,Dawn Medina,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-15 07:45:27,Stephanie Chung,Can you provide more details about this course?,Course Information,0
+2025-07-15 07:56:17,Kathryn Murray,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-15 08:46:09,Sean Salinas,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-15 09:10:09,Anna Hughes,What topics will be covered in the AI course?,Course Information,0
+2025-07-15 09:22:22,Charles Parker,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-15 09:27:32,Crystal Marquez,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-15 09:31:26,Timothy Carter,When does the gym open?,Campus Facilities,0
+2025-07-15 09:44:59,Hannah Weeks,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-15 09:50:50,Jacob Miller,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-15 11:56:36,Thomas Berry,What topics will be covered in the AI course?,Course Information,0
+2025-07-15 13:07:44,Jose Hughes,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-15 13:40:41,Mary Smith,How do I join student clubs?,Extracurricular Activities,0
+2025-07-15 13:58:49,Ian Vasquez,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-15 14:41:14,Jasmine Scott,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-15 15:23:30,Bobby Tran,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-15 15:55:24,Elizabeth Reed,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-15 17:23:53,Michelle Morales,When does the gym open?,Campus Facilities,0
+2025-07-15 17:50:14,Lisa Shields,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-15 18:37:58,David York,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-15 18:39:46,Emily Villegas,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-15 18:52:15,Peter Holmes,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-15 19:22:22,Anthony Gray,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-15 19:26:53,Maria Haynes,When does the gym open?,Campus Facilities,0
+2025-07-15 19:55:46,Shane Davis,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-15 20:07:35,Benjamin Fuller,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-15 20:21:38,Wendy Mckenzie,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-15 20:28:17,Keith Thomas,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-15 21:23:59,Krista Michael,When does the gym open?,Campus Facilities,0
+2025-07-15 21:44:19,Monique Hunter,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-15 22:25:25,Susan Fernandez,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-15 23:09:59,Lisa Ford,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-15 23:15:37,Sarah Carter,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-15 23:27:29,Mary Clark,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-15 23:48:33,Bonnie Ferguson,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-16 00:01:58,Dana Williams,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-16 00:26:40,Joseph Khan,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-16 00:42:04,Monica Dean,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-16 01:23:44,Adam Watson,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-16 01:55:03,William Garcia,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-16 03:37:25,Deborah Watson,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-16 03:56:25,William Mora,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-16 04:05:54,Andrew Berry,The exam schedule was very confusing.,General Complaint,1
+2025-07-16 05:16:31,Paula Bush,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-16 05:27:13,Zachary Powell,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-16 05:42:50,Austin Kim,What topics will be covered in the AI course?,Course Information,0
+2025-07-16 06:31:26,Melissa Williams,When does the gym open?,Campus Facilities,0
+2025-07-16 06:41:11,Chad Padilla,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-16 06:42:08,Andrew Lindsey,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-16 06:44:41,Tammy Chase,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-16 08:14:00,Anna Smith,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-16 11:09:02,Kathy Fry,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-16 12:09:57,Katherine Osborn,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-16 12:51:48,Jamie Nguyen,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-16 14:21:24,Gabriel Hernandez,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-16 14:53:22,Mr. Benjamin Kirk,Can you provide more details about this course?,Course Information,0
+2025-07-16 15:08:01,Mary Kim,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-16 15:35:10,Matthew Jones,When does the gym open?,Campus Facilities,0
+2025-07-16 15:57:46,James Anderson,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-16 16:10:41,Jennifer Perry,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-16 16:55:40,David Smith,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-16 17:05:07,Ashley Diaz,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-16 17:35:30,Kenneth Peters,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-16 18:05:39,Patricia Lee,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-16 18:41:49,Jeffrey Kent,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-16 19:09:15,Jeffery Bauer,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-16 19:12:05,Damon Walker,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-16 19:32:58,Amy Harris,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-16 20:32:50,Willie Lucas,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-16 21:58:12,Maria Cannon,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-16 22:22:20,Cristina Ingram,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-16 23:03:34,Kathleen Robinson,What topics will be covered in the AI course?,Course Information,0
+2025-07-16 23:08:04,David Luna,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-16 23:14:49,Michael Walker,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-16 23:22:51,William Ramos,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-16 23:34:57,Jose Moore,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-16 23:39:12,Matthew Lam,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-16 23:48:21,Kelsey Powers,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-17 00:18:11,Joshua Fuentes,How do I join student clubs?,Extracurricular Activities,0
+2025-07-17 00:44:57,David Jones,How do I join student clubs?,Extracurricular Activities,0
+2025-07-17 01:29:59,John Rodriguez,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-17 01:34:14,Andrea Schroeder,How do I join student clubs?,Extracurricular Activities,0
+2025-07-17 01:48:14,Kimberly Rhodes,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-17 01:49:42,Richard Hill,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-17 02:06:02,Justin Jacobson,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-17 02:33:40,Rachel Morse,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-17 02:46:48,Mr. Dennis Cannon,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-17 04:02:29,Karen Hughes,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-17 04:27:11,Christopher May,Can you provide more details about this course?,Course Information,0
+2025-07-17 04:32:55,Austin Castillo,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-17 05:14:38,Jason Hendrix,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-17 05:40:22,David Calderon,How do I join student clubs?,Extracurricular Activities,0
+2025-07-17 05:53:01,Reginald Potts,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-17 06:04:55,Theresa Roberts,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-17 06:52:42,Jessica Moore,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-17 08:28:38,Annette Simmons,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-17 09:47:38,Crystal Evans,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-17 10:21:13,Angela Hughes,The exam schedule was very confusing.,General Complaint,1
+2025-07-17 10:21:25,Christie Burke,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-17 11:03:43,Bryan Dunn,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-17 11:05:02,Kevin Gillespie,When does the gym open?,Campus Facilities,0
+2025-07-17 11:07:22,Ryan Dean,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-17 11:22:18,Holly Foster,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-17 12:08:28,Courtney Schwartz,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-17 12:53:23,Andrew Jordan,How do I join student clubs?,Extracurricular Activities,0
+2025-07-17 13:06:19,Cindy Smith,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-17 13:23:04,Stacey Cherry,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-17 13:41:22,Timothy Blackwell,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-17 14:24:30,Kyle Gray,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-17 14:53:52,Lance Golden,When does the gym open?,Campus Facilities,0
+2025-07-17 15:11:04,Melissa Daniels,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-17 15:12:01,Adrian Bradley,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-17 15:58:20,Theresa Sanchez,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-17 17:10:53,Joseph Jones,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-17 17:20:21,Christopher Gonzales,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-17 18:06:26,Kelli Hall,The exam schedule was very confusing.,General Complaint,1
+2025-07-17 18:14:26,Alexa Moran,When does the gym open?,Campus Facilities,0
+2025-07-17 18:40:21,Nicole Cabrera,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-17 18:45:38,Trevor Shah,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-17 19:09:37,Jeffery Smith,What topics will be covered in the AI course?,Course Information,0
+2025-07-17 19:13:49,William Snyder,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-17 19:28:47,Tamara Wallace,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-17 19:35:13,Amy Ingram,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-17 19:53:07,John Park,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-17 19:57:03,Erika Walsh,What topics will be covered in the AI course?,Course Information,0
+2025-07-17 20:02:43,John Bridges,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-17 20:30:14,Brian Kennedy,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-17 20:46:11,Troy Snyder,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-17 21:12:40,Alec Vasquez,What topics will be covered in the AI course?,Course Information,0
+2025-07-17 21:32:45,Danielle Robinson,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-17 22:11:47,Monique Morrison,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-17 22:29:32,Tracie Hill,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-17 23:54:39,Dawn Stein,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-18 00:11:35,Billy Lopez,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-18 00:20:20,Eric Petersen,Can you provide more details about this course?,Course Information,0
+2025-07-18 00:48:23,Amy Moore,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-18 00:49:19,Victoria Collier,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-18 02:20:40,Brian Park,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-18 05:05:33,William Webb,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-18 05:07:05,Alison Solis MD,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-18 06:37:06,Brianna Parker,When does the gym open?,Campus Facilities,0
+2025-07-18 07:28:36,Tamara Davis,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-18 08:18:09,Juan Gonzales,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-18 08:43:46,Kimberly Johnson,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-18 08:48:54,Jerry Bernard,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-18 09:05:43,Jaclyn Snyder,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-18 09:22:20,Andrew Guerrero,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-18 09:32:11,Kristina Martinez,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-18 09:46:33,Antonio Saunders,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-18 10:16:45,Alex Goodwin,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-18 10:38:36,Margaret Scott,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-18 11:18:41,John Davies,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-18 11:49:19,Barbara Johnson,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-18 12:44:35,Karen Mason,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-18 12:59:08,Brian Cook,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-18 13:12:48,Christine Woods,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-18 13:51:51,Jessica Velez,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-18 14:45:57,Mark Smith,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-18 15:41:49,Scott Bell,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-18 17:01:45,Valerie Brown,How do I join student clubs?,Extracurricular Activities,0
+2025-07-18 17:36:23,Jermaine Brown,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-18 17:38:40,Benjamin Williams,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-18 18:09:31,Stephanie Johnson,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-18 18:35:29,James Martinez,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-18 18:39:07,Catherine Wilson,When does the gym open?,Campus Facilities,0
+2025-07-18 18:57:30,Joshua Miller,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-18 20:08:06,Glenn Lopez,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-18 20:17:09,Craig Guerrero,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-18 20:48:38,Richard Brooks,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-18 21:57:38,Christian Pham,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-18 22:17:42,Kristin Arnold,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-18 22:31:06,Bryan Aguilar,How do I join student clubs?,Extracurricular Activities,0
+2025-07-18 22:45:05,Carolyn Thomas,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-18 22:54:15,Timothy Hamilton,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-18 23:18:23,Amanda Howard,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-19 01:18:56,Amber Rose,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-19 01:20:27,Gary Hall,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-19 01:25:22,Vincent Silva,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-19 01:32:57,Johnathan Smith,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-19 01:34:33,Nancy Sawyer,The exam schedule was very confusing.,General Complaint,1
+2025-07-19 01:34:46,Allison Berry,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-19 01:43:37,Chad Moses,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-19 02:24:25,Susan Elliott,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-19 02:48:43,Paul Owens,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-19 03:05:51,Matthew Turner,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-19 03:07:14,Elizabeth Walker,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-19 03:38:11,Timothy Wheeler,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-19 04:01:23,Anthony Shaffer,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-19 04:01:55,Erik Tucker,When does the gym open?,Campus Facilities,0
+2025-07-19 04:07:58,Daniel Horn,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-19 04:50:07,Gregory Carrillo,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-19 04:50:17,Denise Henry,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-19 05:00:55,Diana Snow,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-19 05:23:56,Mr. Paul George,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-19 05:30:02,Kerri Jimenez,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-19 06:03:06,Jeremy May,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-19 06:43:06,Amy Kelly,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-19 06:57:32,Jacqueline Sanchez,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-19 07:24:59,Peter Fleming,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-19 07:32:16,James Conway,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-19 07:34:37,Shawn Brown,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-19 08:44:18,Jorge Burton,The exam schedule was very confusing.,General Complaint,1
+2025-07-19 09:08:30,Dylan Perry,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-19 09:09:22,Amanda Coleman,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-19 09:49:02,Chad Gomez,What topics will be covered in the AI course?,Course Information,0
+2025-07-19 10:15:51,Heather Fuller,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-19 10:36:38,Ariana Mathis,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-19 12:01:31,Natalie Smith,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-19 12:29:23,Melissa Thompson,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-19 12:43:42,Nathan Davis,Can you provide more details about this course?,Course Information,0
+2025-07-19 13:50:49,Marvin Haynes,What topics will be covered in the AI course?,Course Information,0
+2025-07-19 14:08:12,Beth Munoz,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-19 14:33:32,David Barnes,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-19 14:56:35,Cheryl Gonzales,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-19 15:27:00,Laurie Carson,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-19 15:35:07,Sarah Decker,How do I join student clubs?,Extracurricular Activities,0
+2025-07-19 15:56:44,Derrick Edwards,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-19 15:57:31,Rachel Glenn,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-19 16:48:46,Jessica Taylor,Can you provide more details about this course?,Course Information,0
+2025-07-19 17:04:43,Edwin Cisneros,When does the gym open?,Campus Facilities,0
+2025-07-19 17:47:53,Michelle Guerrero,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-19 18:23:27,Corey Lopez,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-19 18:26:45,Phillip Ryan DVM,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-19 18:27:23,Andrew Cole,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-19 18:51:09,Dr. Tammy Diaz,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-19 19:16:11,Karen Phillips,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-19 19:55:46,Corey Watson,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-19 21:14:18,Dalton Smith,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-19 22:00:18,Ryan Brown,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-19 22:46:48,Brenda Rivas,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-19 23:45:29,Matthew Massey,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-20 00:01:05,Rachel Robinson,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-20 00:24:12,Lee Pratt,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-20 02:12:21,Anne Krueger,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-20 03:25:56,Steven Anderson,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-20 03:34:22,Carrie Pruitt,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-20 03:41:05,Daniel Silva,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-20 04:14:44,Julia Phillips,Can you provide more details about this course?,Course Information,0
+2025-07-20 04:58:51,Jay Nunez,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-20 05:35:33,Allen Gray,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-20 05:43:54,Christopher Nichols,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-20 06:06:06,Marie Crawford,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-20 06:30:21,Jennifer Diaz,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-20 06:46:17,Debra Willis,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-20 07:09:26,Lisa Tucker,When does the gym open?,Campus Facilities,0
+2025-07-20 07:34:35,Laura Watts,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-20 08:38:30,Cassie Dalton,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-20 09:27:53,William Miller,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-20 09:49:23,Ruben Carter,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-20 10:45:31,Evan Chung,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-20 11:14:29,Scott Johnson,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-20 11:18:40,Teresa Carter,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-20 11:23:53,Norma Fisher,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-20 11:36:23,Jeffrey Brock,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-20 11:53:53,Patrick Ramos,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-20 12:05:29,Jason Yates,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-20 12:05:54,Dr. Melanie Taylor,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-20 12:23:59,Ashley Hall,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-20 13:24:05,Lauren Villegas,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-20 13:30:32,Jessica Maynard,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-20 13:31:28,Dylan Tyler,Can you provide more details about this course?,Course Information,0
+2025-07-20 14:50:36,Shelby Tran,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-20 15:30:40,David Woodward,How do I join student clubs?,Extracurricular Activities,0
+2025-07-20 16:08:25,Cheryl Gutierrez,How do I join student clubs?,Extracurricular Activities,0
+2025-07-20 17:03:34,Justin Holland PhD,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-20 17:17:58,James Nguyen,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-20 18:10:06,Geoffrey Gonzalez,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-20 19:08:38,Heather Martin,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-20 19:11:49,Joshua Rosales,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-20 19:19:59,Eric Greene,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-20 19:46:30,Jose Gutierrez,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-20 20:02:26,Dale Ritter,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-20 21:06:31,Ricardo Schroeder,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-20 21:32:36,Candice Garcia,What topics will be covered in the AI course?,Course Information,0
+2025-07-20 21:52:11,Robert Hicks,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-20 21:57:55,Isabel Martin,When does the gym open?,Campus Facilities,0
+2025-07-20 22:11:44,Jacqueline Williams,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-20 22:46:56,Jeremy Villegas,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-20 23:19:53,Christine Bolton,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-20 23:50:16,Sherry Wu,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-21 00:03:36,Jason Woods,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-21 00:41:24,Samuel Woods,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-21 00:53:36,Bradley Harris,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-21 01:09:21,Sara Herrera,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-21 01:41:32,John Riddle,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-21 02:15:40,Tracy Moore,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-21 02:23:46,Stephanie Jones,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-21 02:29:36,Melinda Anderson,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-21 03:22:26,Justin Stout,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-21 03:25:04,Darren Mccall,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-21 03:42:32,Denise Garcia,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-21 04:12:25,Michael Hamilton,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-21 04:42:39,Jodi Campbell,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-21 04:43:52,Kathryn Williams,The exam schedule was very confusing.,General Complaint,1
+2025-07-21 06:28:33,Alexandria Miller,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-21 06:47:10,Sara Johnson,The exam schedule was very confusing.,General Complaint,1
+2025-07-21 06:50:18,Austin Wilkinson,How do I join student clubs?,Extracurricular Activities,0
+2025-07-21 07:02:11,Lisa Hamilton,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-21 07:52:07,Timothy Pugh,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-21 07:53:09,Zachary Jones,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-21 07:57:20,Jennifer Wright,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-21 07:58:38,Allen Fletcher,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-21 08:34:56,Diane Kim,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-21 08:53:28,Holly Yang,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-21 09:03:01,Andrea Mooney,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-21 09:45:58,James Arias,When does the gym open?,Campus Facilities,0
+2025-07-21 10:18:02,James Frederick,What topics will be covered in the AI course?,Course Information,0
+2025-07-21 10:33:32,David Douglas,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-21 10:35:23,Adam Ramsey,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-21 10:43:21,Jillian Wright,The exam schedule was very confusing.,General Complaint,1
+2025-07-21 10:57:17,Janet Miller,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-21 11:13:41,James James,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-21 12:03:58,Michael Oconnor,The exam schedule was very confusing.,General Complaint,1
+2025-07-21 12:12:52,Marcus Graham,When does the gym open?,Campus Facilities,0
+2025-07-21 12:47:49,Bryan Matthews,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-21 13:11:00,Brandon Cortez,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-21 13:24:50,Jacob Lopez,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-21 14:11:33,Anna Matthews,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-21 15:03:04,Tyler Alvarado,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-21 15:07:56,Laurie Navarro,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-21 15:13:34,Holly Thompson,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-21 15:18:39,Michael Gomez,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-21 15:29:06,Dakota Scott,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-21 16:03:14,Jeffrey Smith,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-21 16:41:39,Michael Holland,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-21 16:49:08,Katherine Brown,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-21 17:10:09,Darryl Rubio,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-21 17:34:52,Karen Burton,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-21 18:24:57,Tracey Jones,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-21 18:27:57,Mark Ferguson,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-21 18:33:14,Katherine Ali,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-21 18:43:04,Tamara Hughes,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-21 19:39:14,Darius Norman,What topics will be covered in the AI course?,Course Information,0
+2025-07-21 20:10:03,Kelsey Copeland,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-21 20:24:32,Anthony Mitchell,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-21 20:36:33,Shannon Hughes,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-21 20:43:18,Linda Mcdowell,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-21 21:06:12,Kelly Lucas,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-21 21:27:26,Aimee Stevens,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-21 22:17:46,Carol Burns,How do I join student clubs?,Extracurricular Activities,0
+2025-07-21 22:36:28,Kim Zimmerman PhD,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-21 22:57:30,Elaine Khan,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-21 23:09:36,Jeffery Fuller,How do I join student clubs?,Extracurricular Activities,0
+2025-07-21 23:28:13,Joshua Elliott,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-22 00:07:32,Joseph Dalton,When does the gym open?,Campus Facilities,0
+2025-07-22 00:19:42,Claudia Robles,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-22 00:46:34,Jared Cardenas,When does the gym open?,Campus Facilities,0
+2025-07-22 01:30:10,Eric Levine,What topics will be covered in the AI course?,Course Information,0
+2025-07-22 02:06:19,Angela Miller,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-22 02:06:30,Kelly Blake,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-22 02:09:05,Hunter Holt,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-22 02:27:44,Courtney Roberts,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-22 02:37:54,Mindy Anderson,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-22 03:14:03,Ronald Morales,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-22 03:56:57,Mary Zavala,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-22 04:21:42,Sherry Smith,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-22 04:29:41,Kenneth Gregory,The exam schedule was very confusing.,General Complaint,1
+2025-07-22 04:39:00,John Berger,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-22 05:40:08,Charles Hernandez,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-22 06:38:28,Colin Francis,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-22 06:43:45,Dominique Garcia,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-22 07:23:21,Joshua Buchanan,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-22 07:26:43,Kristina Shaw,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-22 09:06:40,Anthony Johnson,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-22 09:16:21,Jamie Mason DVM,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-22 09:28:27,Richard Olson,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-22 09:43:03,John Barber,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-22 09:44:08,Brittany Pierce,What topics will be covered in the AI course?,Course Information,0
+2025-07-22 10:20:27,James Osborne,When does the gym open?,Campus Facilities,0
+2025-07-22 10:22:48,Sharon Mayo,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-22 10:58:43,Amy Smith,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-22 11:28:23,Alexandria Ramirez,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-22 12:07:39,James Allen,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-22 12:20:17,Joshua Moore,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-22 12:55:02,Ricky Martin,How do I join student clubs?,Extracurricular Activities,0
+2025-07-22 14:19:31,Jeffrey Bell,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-22 14:52:12,Dr. Craig Nielsen,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-22 15:08:35,Leonard Smith,Can you provide more details about this course?,Course Information,0
+2025-07-22 15:25:01,Gregory Johnson,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-22 15:43:59,Joseph Brewer,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-22 16:24:29,Cynthia White,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-22 16:26:22,Benjamin Blevins,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-22 17:16:46,Scott Tapia,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-22 17:32:29,Donald Johnson,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-22 18:06:15,Miss Cassandra Mcdonald,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-22 19:07:13,Elizabeth Spears PhD,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-22 20:42:34,Nancy Grimes,The exam schedule was very confusing.,General Complaint,1
+2025-07-22 21:02:58,Jennifer Miller,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-22 21:15:58,Jason Smith,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-22 21:34:06,Dana Cantu,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-22 21:57:22,Elizabeth Duran,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-22 22:14:19,Brittany Smith,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-22 22:16:51,Anna Hughes,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-22 22:43:20,Angela Rogers,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-22 23:20:59,Christopher Johnson PhD,Can you provide more details about this course?,Course Information,0
+2025-07-22 23:26:23,Michael Parks,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-22 23:31:11,David Hernandez,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-23 00:20:51,Leslie Russell,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-23 00:33:25,Glenn Jones,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-23 01:09:41,Lynn Fritz,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-23 01:52:40,Logan James,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-23 02:15:33,Michael Ward,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-23 02:29:54,Carrie Garcia,The exam schedule was very confusing.,General Complaint,1
+2025-07-23 03:06:21,Patrick Graham,The exam schedule was very confusing.,General Complaint,1
+2025-07-23 03:12:06,Christine Phillips,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-23 03:40:13,Cynthia Mitchell,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-23 03:53:40,Manuel Garcia,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-23 04:30:03,Mary Diaz,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-23 05:23:08,Christopher Rios,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-23 05:24:27,Robert Cervantes,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-23 05:50:04,Jacqueline White,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-23 05:52:09,Bruce Carr,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-23 05:53:11,Laura Robinson,The exam schedule was very confusing.,General Complaint,1
+2025-07-23 06:41:50,Debra Marquez,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-23 06:57:05,Anna Rhodes,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-23 07:08:40,Andrew Stokes,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-23 07:20:17,Christine Keller,What topics will be covered in the AI course?,Course Information,0
+2025-07-23 08:59:36,Samantha Ibarra,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-23 09:15:59,Tammy Bennett DVM,Can you provide more details about this course?,Course Information,0
+2025-07-23 10:46:54,Robert Cox,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-23 11:48:29,Tanya Davis,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-23 12:01:14,Richard Robinson,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-23 12:08:31,Richard Gordon,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-23 12:17:12,Jessica Evans,The exam schedule was very confusing.,General Complaint,1
+2025-07-23 13:16:03,Michael Elliott,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-23 13:17:27,Donald Romero,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-23 13:38:57,Angela Nguyen,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-23 13:42:12,James Christian,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-23 14:30:24,Christopher Ryan,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-23 15:36:39,James Hart,Can you provide more details about this course?,Course Information,0
+2025-07-23 17:13:45,Stephanie Mckinney,How do I join student clubs?,Extracurricular Activities,0
+2025-07-23 17:37:21,Dustin Smith,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-23 18:00:42,James Anderson,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-23 18:09:36,Susan Evans,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-23 18:22:55,Douglas Clark,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-23 18:24:19,Jessica Sawyer,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-23 18:31:54,Christine Moore,What topics will be covered in the AI course?,Course Information,0
+2025-07-23 18:42:03,Victoria Patterson,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-23 18:50:42,Michelle Carpenter,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-23 19:25:34,Brandi Armstrong,Can you provide more details about this course?,Course Information,0
+2025-07-23 19:41:57,Kayla Villarreal,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-23 19:51:36,Matthew Wood,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-23 21:01:20,Maria Hampton,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-23 21:22:23,Samantha Phillips,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-23 22:27:28,Christina Martin,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-23 23:13:53,Charles Stevens,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-23 23:33:29,Andrew Thomas,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-23 23:42:43,Benjamin Morris,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-24 00:28:31,Teresa Pham,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-24 00:36:26,Adrienne Miller,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-24 00:45:45,Gabriel Carey,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-24 01:30:21,Steven Lee,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-24 02:41:10,Cameron Torres,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-24 02:45:53,Natalie Cohen,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-24 04:07:22,Frank Walker,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-24 04:16:46,Mrs. Rose Odonnell,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-24 04:30:36,Cynthia Jackson,What topics will be covered in the AI course?,Course Information,0
+2025-07-24 04:36:23,Nicholas Nelson,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-24 05:10:39,Robert Parker,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-24 05:23:32,Dorothy Diaz,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-24 05:27:41,Kim Downs,The exam schedule was very confusing.,General Complaint,1
+2025-07-24 05:29:25,Amanda Simpson,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-24 06:41:22,Laura Sanford,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-24 07:53:00,Amber Cooper,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-24 08:12:07,Anthony Jones,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-24 08:44:48,William Ingram,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-24 09:34:07,Bryan Williams,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-24 09:55:26,Thomas Olson,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-24 10:34:45,Michelle Spencer,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-24 10:48:18,Michael Harrell,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-24 11:09:10,Jason Baker,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-24 11:30:09,Dalton Henson,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-24 11:58:19,James Miles,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-24 12:02:24,James Allen,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-24 12:44:58,Micheal Cox,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-24 12:56:26,Michael Silva,When does the gym open?,Campus Facilities,0
+2025-07-24 13:14:52,Debra Bailey,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-24 13:50:18,Melanie Gallegos,When does the gym open?,Campus Facilities,0
+2025-07-24 14:28:33,Phillip Miller,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-24 14:35:10,Shannon Fox,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-24 14:37:40,Amber Greene,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-24 15:32:52,Jennifer Sherman,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-24 16:09:38,Rebecca Clay,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-24 17:13:17,Robert White,When does the gym open?,Campus Facilities,0
+2025-07-24 18:40:01,Melanie Vaughn,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-24 18:43:39,Mr. Ronnie Ortiz,The exam schedule was very confusing.,General Complaint,1
+2025-07-24 20:01:10,Crystal Lucas,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-24 20:32:14,Joshua Johnson,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-24 21:31:56,Elizabeth Martinez,What topics will be covered in the AI course?,Course Information,0
+2025-07-24 21:37:28,Jerry Chen,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-24 21:56:18,Margaret Wilson,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-24 22:13:58,Bradley Williamson,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-24 22:46:13,Anthony Jackson,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-24 23:07:27,Heather Parsons,What topics will be covered in the AI course?,Course Information,0
+2025-07-24 23:14:29,Sean Vang,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-24 23:21:49,Ashley Gutierrez,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-24 23:26:57,Joanna Sloan,When does the gym open?,Campus Facilities,0
+2025-07-24 23:53:18,Steven Murray,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-24 23:59:23,Lydia Lee,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-25 00:28:16,Brian Velez,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-25 00:56:00,Jennifer Young,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-25 01:16:45,Debbie Murphy,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-25 02:03:23,Erin Deleon,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-25 02:08:53,Christopher Quinn,Can you provide more details about this course?,Course Information,0
+2025-07-25 02:18:16,Lydia Scott,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-25 03:16:44,Mark Johnson,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-25 03:23:41,Zachary Nelson,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-25 04:18:31,Julie Carpenter,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-25 05:08:46,Julie Marshall,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-25 05:31:18,Charles Rodriguez,Can you provide more details about this course?,Course Information,0
+2025-07-25 05:34:54,Caleb Chan,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-25 05:52:26,Brian Nunez,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-25 06:55:11,Leroy Dunn,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-25 09:48:58,Jason Hardy,How do I join student clubs?,Extracurricular Activities,0
+2025-07-25 09:55:29,Walter Skinner,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-25 09:57:03,Megan Ramos,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-25 12:30:52,Amanda Nelson,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-25 12:34:10,Marissa Goodman,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-25 13:07:52,Leslie Baker,When does the gym open?,Campus Facilities,0
+2025-07-25 13:27:07,Alexandra Harris,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-25 14:27:25,Jonathan Black,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-25 14:41:43,Ruben Tate,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-25 14:41:54,George Craig,What topics will be covered in the AI course?,Course Information,0
+2025-07-25 14:46:17,Judith Atkins,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-25 15:00:40,Kelly Ho,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-25 15:05:44,Sandra Nelson,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-25 15:42:04,Pamela Wilson,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-25 16:10:17,Kristin Bautista,How do I join student clubs?,Extracurricular Activities,0
+2025-07-25 17:05:44,Ashley Gross,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-25 17:09:48,Jeffrey Hunt,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-25 17:13:27,Laurie Williams,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-25 17:38:44,Deanna Orr,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-25 17:40:38,Harold Miller,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-25 18:10:46,Jason Vega,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-25 19:00:16,David Mccullough,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-25 19:03:46,Heather Smith,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-25 19:29:20,Leslie Harrison,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-25 19:45:33,Aaron Hernandez,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-25 20:56:33,Leah Murphy,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-25 20:58:18,Carol Garcia,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-25 21:24:21,Holly Morales,Can you provide more details about this course?,Course Information,0
+2025-07-25 22:01:28,Courtney White,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-25 23:03:26,Danielle Stanton,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-25 23:26:49,Cody Flores,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-25 23:59:20,Mr. Riley Zimmerman,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-26 00:24:18,Rebecca Barker,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-26 00:28:34,Zachary Diaz,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-26 00:39:47,Kristy Roberts,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-26 00:41:21,Christie Price,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-26 00:43:47,Jean Martinez,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-26 00:46:39,Rachael Dominguez,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-26 00:55:40,Jennifer Boone,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-26 00:55:58,Lauren Patterson,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-26 00:58:08,John Gordon,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-26 01:30:10,Angela Turner,Can you provide more details about this course?,Course Information,0
+2025-07-26 02:44:00,Sherri Randall,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-26 03:01:54,Kelly Wright,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-26 03:34:08,Stephanie Banks,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-26 03:40:47,Travis Burke,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-26 03:41:49,Justin Wallace,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-26 04:21:07,Billy Fox,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-26 04:37:05,Julie Rodriguez,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-26 04:48:28,Paige Holt,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-26 05:23:05,Paul Anderson,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-26 05:24:03,Heather Schultz,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-26 05:59:45,Barbara Thompson,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-26 07:01:38,Joshua Doyle,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-26 07:21:35,Adam Ibarra,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-26 07:46:31,Jason Page,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-26 08:16:34,Mathew Hansen,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-26 08:41:27,Hannah Williams,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-26 09:01:31,Matthew Chen,How do I join student clubs?,Extracurricular Activities,0
+2025-07-26 09:51:07,Edward Mcgee MD,When does the gym open?,Campus Facilities,0
+2025-07-26 11:23:56,Cindy Watson,The exam schedule was very confusing.,General Complaint,1
+2025-07-26 11:32:55,Jeffrey Martin,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-26 13:23:29,Fernando Moore,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-26 14:19:58,Dana Boone,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-26 14:51:48,Dustin Garcia,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-26 15:14:07,Natalie Patel,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-26 15:14:34,Michael Barron,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-26 16:07:35,Michael Doyle,What topics will be covered in the AI course?,Course Information,0
+2025-07-26 16:12:38,Shari Smith,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-26 16:19:57,Deanna Rodriguez,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-26 17:02:06,Cody Lynn,When does the gym open?,Campus Facilities,0
+2025-07-26 17:04:39,Mary Navarro,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-26 17:08:04,William Walker,When does the gym open?,Campus Facilities,0
+2025-07-26 17:31:07,Kimberly Underwood,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-26 18:26:40,Susan Dennis,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-26 18:33:27,Derek Hernandez,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-26 18:35:54,Lisa Jacobs,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-26 18:40:28,Edward Graham,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-26 19:02:50,Jason Perez,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-26 19:24:22,Christopher Jones,When does the gym open?,Campus Facilities,0
+2025-07-26 20:14:12,Valerie Anderson,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-26 20:48:24,Kimberly Dawson,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-26 20:58:05,Joseph Brown,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-26 21:23:35,Joann Smith,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-26 22:04:58,Samantha Young,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-26 22:15:30,David Hartman,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-26 22:20:08,Duane Shaffer,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-26 22:28:38,John Steele,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-26 22:39:47,Samantha Hancock DDS,How do I join student clubs?,Extracurricular Activities,0
+2025-07-26 23:46:28,Teresa Wright,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-27 00:28:06,Anthony Smith,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-27 01:04:29,Breanna Hicks,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-27 02:27:50,Patricia Fleming,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-27 02:37:56,John Watson,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-27 02:40:43,April Williams,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-27 04:06:34,Andrew Wood,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-27 04:41:04,Kathryn Norman,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-27 04:56:22,Kristen Blanchard,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-27 05:02:27,Robert Mccullough,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-27 05:11:46,Nicole Allen,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-27 05:34:22,Brad Terrell,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-27 06:00:26,David Oliver,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-27 06:04:58,John Brown,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-27 06:27:38,David Williams,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-27 06:45:42,Stacey Hansen,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-27 07:02:57,James Bryant,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-27 07:38:57,Tammy Ortiz,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-27 07:48:24,Lindsey Contreras,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-27 07:59:47,Erica Sandoval,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-27 08:21:55,Andrea Price,When does the gym open?,Campus Facilities,0
+2025-07-27 10:29:15,Danny Harding,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-27 10:39:12,Andrea Lane,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-27 11:03:43,Rebecca Taylor,When does the gym open?,Campus Facilities,0
+2025-07-27 11:40:59,Barbara Li,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-27 11:41:42,Heidi Silva,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-27 12:12:12,Dr. Alexander Lopez,The exam schedule was very confusing.,General Complaint,1
+2025-07-27 12:35:41,Robert Peck,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-27 13:00:16,Dr. Tracy Farrell,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-27 13:58:58,Mitchell Jackson,How do I join student clubs?,Extracurricular Activities,0
+2025-07-27 14:39:19,Jenna Hanson,What topics will be covered in the AI course?,Course Information,0
+2025-07-27 15:00:47,Erin Solis,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-27 15:53:55,Keith Kent,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-27 15:56:29,Heather Martinez,When does the gym open?,Campus Facilities,0
+2025-07-27 16:19:30,Jessica Woods,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-27 16:30:45,Kurt Fisher,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-27 16:54:12,Chloe Roth,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-27 16:57:11,Douglas Schwartz,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-27 18:20:47,Paul Donovan,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-27 18:40:20,Kayla Warren,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-27 18:59:46,Lauren Moore,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-27 19:07:48,Daniel Johnson,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-27 21:23:10,Sierra Bradley,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-27 21:29:40,Matthew Snyder,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-27 22:43:03,Sara Parks,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-27 23:18:14,Derek Smith,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-28 00:02:24,Candice Burgess,What topics will be covered in the AI course?,Course Information,0
+2025-07-28 00:05:51,Donna Benson,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-28 00:21:47,Nathan Becker,What topics will be covered in the AI course?,Course Information,0
+2025-07-28 00:22:26,Jennifer Grant,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-28 00:40:45,Ronnie Harrison,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-28 00:54:24,Lisa Foster,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-28 01:19:08,Cristian Adams,When does the gym open?,Campus Facilities,0
+2025-07-28 02:01:00,Todd Dickerson,Can you provide more details about this course?,Course Information,0
+2025-07-28 02:05:16,Megan Cox,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-28 02:46:36,Mr. Derek Schultz,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-28 02:48:25,Alexandra Scott,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-28 02:52:39,Deanna Chavez,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-28 02:53:12,Julie Davis,When does the gym open?,Campus Facilities,0
+2025-07-28 03:00:09,Kathryn Scott,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-28 03:33:42,Frances Griffin,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-28 03:41:49,Jessica Aguirre,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-28 03:49:31,Thomas Nguyen,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-28 03:58:22,Larry Baker,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-28 04:46:27,Zachary Simmons,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-28 05:00:26,Raymond Oconnell,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-28 05:18:15,Tim Case,When does the gym open?,Campus Facilities,0
+2025-07-28 06:23:08,Donald May,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-28 06:24:55,Gregory Williams,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-28 06:38:31,Jason Fowler,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-28 06:39:24,Heather Hinton,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-28 07:12:02,Noah Davis,The exam schedule was very confusing.,General Complaint,1
+2025-07-28 07:36:10,Jonathan Dawson,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-28 07:37:38,Matthew Herrera,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-28 07:43:51,Mr. Charles Brown,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-28 07:51:40,Robert Greer,The exam schedule was very confusing.,General Complaint,1
+2025-07-28 08:06:53,Brandon Woodward,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-28 09:08:36,Robin Newman DVM,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-28 09:48:17,Richard Jordan,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-28 09:50:08,Oscar Palmer,Can you provide more details about this course?,Course Information,0
+2025-07-28 09:53:08,Jennifer Ramos,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-28 09:56:47,Kevin Kelly,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-28 12:48:03,Jason Evans,How do I join student clubs?,Extracurricular Activities,0
+2025-07-28 13:49:08,Craig Simon,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-28 14:02:20,Anthony Williams,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-28 15:11:28,Justin Brown,What topics will be covered in the AI course?,Course Information,0
+2025-07-28 15:43:54,Daniel Hernandez,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-28 16:28:01,Melissa Dennis,Can you provide more details about this course?,Course Information,0
+2025-07-28 16:35:52,Carl Thomas,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-28 17:19:14,Kevin Cook,Can you provide more details about this course?,Course Information,0
+2025-07-28 18:31:47,Dr. Randall Bowers,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-28 18:44:06,Jeanette Taylor,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-28 18:53:20,Carla Rose,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-28 18:54:06,Matthew Smith,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-28 19:08:03,Steven Baker,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-28 19:11:19,Jose Moore,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-28 19:32:47,Judy Wiggins,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-28 20:35:15,Beth Ellis,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-28 20:52:15,Julie Horne,How do I join student clubs?,Extracurricular Activities,0
+2025-07-28 21:48:59,Renee Greene,What topics will be covered in the AI course?,Course Information,0
+2025-07-28 22:13:37,Dylan Weeks,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-28 23:15:59,Mrs. Tonya Curry,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-28 23:26:54,Sierra Gallagher,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-28 23:37:20,Joseph Moreno,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-29 00:33:11,Andrew Smith,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-29 01:02:45,William Alvarez,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-29 01:58:53,Catherine Howard,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-29 02:02:04,Samantha Morgan,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-29 02:48:05,Tracy Mccarthy,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-29 02:49:44,Erica Hess,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-29 04:43:55,Dennis Diaz,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-29 05:42:26,Melanie Arnold,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-29 06:09:33,Claire Hall,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-29 06:10:19,Nancy Williams MD,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-29 06:13:49,Robert Farmer,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-29 06:20:48,Laura Jackson,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-29 06:27:57,Aaron Phillips,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-29 06:42:05,Steven Phillips,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-29 07:02:03,Virginia Conner,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-29 07:08:23,Kelly Hahn,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-29 07:08:47,Corey Watson,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-29 07:09:43,Maria Gill,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-29 07:34:05,Michael Moreno,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-29 08:32:26,Brenda Le,What topics will be covered in the AI course?,Course Information,0
+2025-07-29 09:30:12,Jonathan Pena,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-29 09:43:12,Deborah White,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-29 09:46:17,Carolyn Jordan,What topics will be covered in the AI course?,Course Information,0
+2025-07-29 10:37:04,Brittany Tapia,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-29 10:42:02,William Perez,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-07-29 11:45:48,Brandi Andrews,The exam schedule was very confusing.,General Complaint,1
+2025-07-29 11:55:36,Steven Gay,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-29 11:56:31,Scott Barber,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-29 12:11:40,Mary Wallace,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-29 12:36:36,Alan Parsons,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-29 12:45:04,Christopher Sullivan,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-29 13:05:47,Jennifer Rose,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-29 13:09:36,Danielle Anderson,When does the gym open?,Campus Facilities,0
+2025-07-29 13:19:12,Willie Gonzalez,The exam schedule was very confusing.,General Complaint,1
+2025-07-29 13:47:49,Brett Wolfe,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-29 15:09:48,Tanya Higgins,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-29 15:30:43,Rhonda Woods,The exam schedule was very confusing.,General Complaint,1
+2025-07-29 15:47:40,Kenneth Everett,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-29 16:29:11,Rebecca Smith,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-29 17:07:53,Lori Benitez,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-29 17:13:02,Pamela Dodson,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-29 18:22:28,Lisa Miller,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-29 18:38:32,Jared Spencer,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-29 19:28:13,Eric Baxter,When does the gym open?,Campus Facilities,0
+2025-07-29 19:45:50,Gregory Leach MD,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-29 19:55:42,Martin Mcdonald,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-29 20:09:32,Brian Kelly,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-29 20:44:47,Jasmine Rangel,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-29 21:46:17,Maria Turner,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-29 22:06:20,Jennifer Fisher,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-29 22:18:42,Lindsey Olson,What topics will be covered in the AI course?,Course Information,0
+2025-07-29 22:27:05,Natalie Juarez,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-29 22:44:46,Ricky Nelson,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-29 23:43:18,Harold Clements,How do I join student clubs?,Extracurricular Activities,0
+2025-07-29 23:50:51,Nicholas King,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-30 00:25:14,Kimberly Bartlett,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-30 00:34:46,Yvette Castillo,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-30 01:04:32,Heather Rios,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-30 01:27:27,Melanie Johnson,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-30 01:32:59,John Stevens,Can you provide more details about this course?,Course Information,0
+2025-07-30 01:47:55,Kyle Meyer,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-30 02:22:04,Christian Jones,When does the gym open?,Campus Facilities,0
+2025-07-30 04:17:24,Brian Gutierrez,When does the gym open?,Campus Facilities,0
+2025-07-30 04:18:13,Olivia Yates,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-30 04:35:06,Craig Conrad,Can you provide more details about this course?,Course Information,0
+2025-07-30 05:19:13,Stephanie Park,When does the gym open?,Campus Facilities,0
+2025-07-30 05:27:39,Patrick Garcia,When does the gym open?,Campus Facilities,0
+2025-07-30 05:36:20,Shannon Cardenas,When does the gym open?,Campus Facilities,0
+2025-07-30 05:41:31,Adam Glenn,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-30 06:36:18,Kimberly Patton,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-30 06:41:46,Matthew Boyle,The exam schedule was very confusing.,General Complaint,1
+2025-07-30 07:06:04,Darren Jenkins,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-30 07:10:35,Joshua Mendoza,Can you provide more details about this course?,Course Information,0
+2025-07-30 07:19:52,Sean Jones,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-30 08:36:08,Natalie Smith,The exam schedule was very confusing.,General Complaint,1
+2025-07-30 10:31:04,Erin Lynn,The exam schedule was very confusing.,General Complaint,1
+2025-07-30 11:23:05,Seth Torres,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-30 12:02:52,Dr. Ashley Anderson,Can you provide more details about this course?,Course Information,0
+2025-07-30 12:03:12,Matthew Little,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-30 12:09:45,Ashley Klein,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-30 12:11:34,Bethany Gonzalez,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-30 12:36:17,Christina Young,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-07-30 13:28:42,Cynthia Bautista,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-30 14:10:54,Pamela Williams,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-30 14:18:23,Peter Nash,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-30 14:25:03,Robert Martin,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-30 14:26:45,Alexander Pitts,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-30 14:30:19,Gina Reyes,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-30 15:17:29,Lawrence Martin,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-30 15:42:39,John Sanchez,Are there any art workshops this month?,Extracurricular Activities,0
+2025-07-30 15:53:08,Sabrina Flynn,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-30 16:22:43,Danielle Castillo,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-07-30 16:36:59,Kevin Sullivan,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-07-30 17:42:16,Grace Parks,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-30 18:49:42,Kristen Love,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-07-30 19:01:32,Elizabeth Bradford,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-30 19:34:06,Autumn Dominguez,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-30 20:19:40,Jacob Barnes,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-30 20:56:25,Bobby Martin,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-30 21:31:18,Steven Lindsey,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-07-30 21:53:35,Jimmy Morales,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-30 22:27:08,Kyle Gonzalez,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-30 22:45:56,Robert Stevenson DDS,What topics will be covered in the AI course?,Course Information,0
+2025-07-31 00:18:05,Cynthia Jensen,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-31 01:02:37,Michael Gray,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-31 01:26:37,Barbara Morris,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-31 01:53:40,Samantha Keith,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-31 02:24:37,Karen Martin,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-31 02:40:12,Kayla Henry,When does the gym open?,Campus Facilities,0
+2025-07-31 03:09:14,Melissa Phillips,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-31 03:31:52,Melanie Williams,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-31 03:56:40,Michael Mendoza,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-31 03:56:48,Jessica Garcia,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-31 05:21:47,Ariel Spencer,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-31 05:23:01,Eric Lewis,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-07-31 05:41:40,John Lyons,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-31 05:44:33,Cassandra Roberts,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-31 07:22:27,Laurie Bullock,How do I join student clubs?,Extracurricular Activities,0
+2025-07-31 07:36:39,Heather Colon,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-07-31 08:22:08,Jason Hopkins,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-31 09:00:55,Denise Decker,The exam schedule was very confusing.,General Complaint,1
+2025-07-31 09:39:47,Charles Fitzgerald,I'm being harassed by another student.,Bullying or Harassment,1
+2025-07-31 10:23:25,Charles Khan,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-31 10:23:27,Robert Sampson,Can you provide more details about this course?,Course Information,0
+2025-07-31 10:39:38,Alicia Ferguson,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-31 10:45:48,Daniel Ramirez,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-31 11:18:05,Joshua Davila,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-31 11:39:58,Samantha Torres,How do I join student clubs?,Extracurricular Activities,0
+2025-07-31 11:43:12,Maria Harris,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-07-31 12:17:59,Elizabeth Combs,Zoom won’t connect for my online class.,Technical Support,0
+2025-07-31 14:34:38,Stephanie Stevens,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-07-31 14:36:26,Lynn Miller,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-31 14:42:01,Tracy Shepherd,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-31 14:51:21,Ricky Ruiz,Can you provide more details about this course?,Course Information,0
+2025-07-31 14:53:24,Roberta Thomas,What topics will be covered in the AI course?,Course Information,0
+2025-07-31 15:26:26,Lisa Griffith,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-07-31 15:57:21,Vanessa Pierce,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-31 16:38:54,Amber Hall,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-07-31 18:16:38,Roger Rodriguez,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-07-31 18:21:59,Lisa Larson,Who do I contact for transcript requests?,Administrative Support,0
+2025-07-31 18:41:51,David Fisher,The library Wi-Fi is not working.,Campus Facilities,0
+2025-07-31 18:53:42,Edward Beasley,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-07-31 19:06:02,Jennifer Taylor,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-07-31 19:11:51,James Brown,I have a complaint about the cafeteria service.,General Complaint,1
+2025-07-31 19:19:44,Jessica Acosta,The exam schedule was very confusing.,General Complaint,1
+2025-07-31 19:37:12,Jessica Banks,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-07-31 19:50:54,Jennifer Soto,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-07-31 21:32:28,Chloe Hoover,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-31 21:56:40,Joshua Sanchez,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-07-31 22:14:50,Randy Mccoy,When does the gym open?,Campus Facilities,0
+2025-07-31 22:46:29,Dana Escobar,When does the gym open?,Campus Facilities,0
+2025-07-31 23:10:44,Briana Leach,I need help with my student ID card replacement.,Administrative Support,0
+2025-07-31 23:49:25,Jessica Galvan,The exam schedule was very confusing.,General Complaint,1
+2025-08-01 00:14:20,Stephanie Lee,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-08-01 02:03:01,Carolyn Pena,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-08-01 02:17:03,William Casey,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-08-01 02:20:02,Zachary Peterson,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-08-01 02:20:28,David Sanchez,I need help with my student ID card replacement.,Administrative Support,0
+2025-08-01 02:46:37,Scott Myers,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-08-01 03:01:31,Andrew Hunter,I have a complaint about the cafeteria service.,General Complaint,1
+2025-08-01 04:00:05,Scott Jenkins,I have a complaint about the cafeteria service.,General Complaint,1
+2025-08-01 04:07:31,Alan Logan,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-08-01 05:14:35,Shawn Murphy Jr.,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-08-01 05:24:16,Daniel Garcia,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-08-01 05:41:18,Theresa Martin,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-08-01 06:20:57,James Williams,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-08-01 07:17:33,Andrea Sanford,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-08-01 07:36:04,Amy Moore,I'm being harassed by another student.,Bullying or Harassment,1
+2025-08-01 08:14:32,Craig Boyd,What topics will be covered in the AI course?,Course Information,0
+2025-08-01 08:41:57,Justin Miller,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-08-01 09:04:57,Pamela Cabrera,What topics will be covered in the AI course?,Course Information,0
+2025-08-01 10:14:46,Michelle Brown,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-08-01 10:30:53,Gina Adkins,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-08-01 12:36:10,Brian Rivera,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-08-01 13:07:05,George Cooper,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-08-01 13:37:45,Brenda Bolton,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-08-01 14:01:28,Andrew Huynh,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-08-01 14:47:08,Lisa Dunn,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-08-01 14:59:17,Lisa Lewis,Can you provide more details about this course?,Course Information,0
+2025-08-01 15:11:42,Thomas Brewer,How do I join student clubs?,Extracurricular Activities,0
+2025-08-01 16:10:22,Mike Cowan,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-08-01 16:17:09,Eric Summers,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-08-01 16:18:25,Jennifer Johnson,Can you provide more details about this course?,Course Information,0
+2025-08-01 16:23:24,Daniel Obrien,Who do I contact for transcript requests?,Administrative Support,0
+2025-08-01 16:37:57,Heather Doyle,How can I apply for on-campus housing?,Housing/Accommodation,0
+2025-08-01 16:54:30,Brandon Rivera,The exam schedule was very confusing.,General Complaint,1
+2025-08-01 17:17:30,Alejandra Love,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-08-01 18:05:54,Robert Davis,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-08-01 18:18:50,Kenneth Moore,I have a complaint about the cafeteria service.,General Complaint,1
+2025-08-01 18:19:02,Jacob Thompson,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-08-01 20:20:45,Carla Cooper,Zoom won’t connect for my online class.,Technical Support,0
+2025-08-01 20:51:12,Jessica Smith,Why was I charged extra fees this term?,Tuition/Fees Inquiry,0
+2025-08-01 21:00:54,Jason Randall,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-08-01 22:25:38,Randy Morris,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-08-01 22:55:39,Brooke Carrillo,The library Wi-Fi is not working.,Campus Facilities,0
+2025-08-01 23:21:00,Matthew Davis,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-08-01 23:33:00,Troy Smith,The library Wi-Fi is not working.,Campus Facilities,0
+2025-08-02 00:43:08,Joyce Fox,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-08-02 01:30:29,Alicia Dougherty,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-08-02 01:39:35,Richard Kerr,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-08-02 01:44:44,Julie Gomez,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-08-02 03:39:24,Jonathan Jackson,I need financial assistance for this semester.,Scholarship/Financial Aid,0
+2025-08-02 03:45:54,Rachel Sampson,How do I join student clubs?,Extracurricular Activities,0
+2025-08-02 03:48:08,Emily Townsend,Are there any art workshops this month?,Extracurricular Activities,0
+2025-08-02 03:58:12,Priscilla Howard,What topics will be covered in the AI course?,Course Information,0
+2025-08-02 04:10:01,Brian Lee,Can you provide more details about this course?,Course Information,0
+2025-08-02 04:28:56,Peter Perez,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-08-02 04:56:07,Kathy Edwards,How do I join student clubs?,Extracurricular Activities,0
+2025-08-02 06:04:09,Melissa Johnson,When does the gym open?,Campus Facilities,0
+2025-08-02 06:10:31,Christina Martin,I need help with my student ID card replacement.,Administrative Support,0
+2025-08-02 07:46:07,Brian Mcclure,My laptop crashed during an exam. What should I do?,Technical Support,0
+2025-08-02 08:01:53,Mary Sanchez,When does the gym open?,Campus Facilities,0
+2025-08-02 08:07:45,Brian Schultz,I have a complaint about the cafeteria service.,General Complaint,1
+2025-08-02 08:08:10,Mrs. Courtney Patterson,I have a complaint about the cafeteria service.,General Complaint,1
+2025-08-02 09:50:26,Christine Pearson,When is the tuition payment deadline?,Tuition/Fees Inquiry,0
+2025-08-02 10:41:17,Christy Berry,How do I join student clubs?,Extracurricular Activities,0
+2025-08-02 11:26:37,James Murphy,Who do I contact for transcript requests?,Administrative Support,0
+2025-08-02 11:44:23,Victoria Mejia,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-08-02 11:58:18,Nicholas Steele,The exam schedule was very confusing.,General Complaint,1
+2025-08-02 12:49:50,Keith Gray,Who do I contact for transcript requests?,Administrative Support,0
+2025-08-02 13:31:27,Thomas Walker,What topics will be covered in the AI course?,Course Information,0
+2025-08-02 14:30:07,Sarah Jones,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-08-02 14:40:20,Jeffrey Ramirez,I'm being harassed by another student.,Bullying or Harassment,1
+2025-08-02 14:53:05,Dr. Kara Glass,How do I join student clubs?,Extracurricular Activities,0
+2025-08-02 15:45:30,Johnathan Vasquez,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-08-02 15:51:15,Tom Lee,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-08-02 16:12:29,Todd Miller,I'm being harassed by another student.,Bullying or Harassment,1
+2025-08-02 16:16:48,Charles Weiss,Zoom won’t connect for my online class.,Technical Support,0
+2025-08-02 16:26:53,Alexa Edwards,Someone in my group project keeps insulting me.,Bullying or Harassment,1
+2025-08-02 17:07:15,Lauren Hall,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-08-02 17:22:44,Kelly Jordan,Are there any art workshops this month?,Extracurricular Activities,0
+2025-08-02 17:44:59,Christina Phillips,Are there any art workshops this month?,Extracurricular Activities,0
+2025-08-02 18:27:19,David Kennedy,The exam schedule was very confusing.,General Complaint,1
+2025-08-02 18:46:17,Jennifer Burke,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-08-02 19:14:08,Christine Henderson,The library Wi-Fi is not working.,Campus Facilities,0
+2025-08-02 19:21:09,Cindy Rollins,Who do I contact for transcript requests?,Administrative Support,0
+2025-08-02 19:27:04,Blake Jones,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-08-02 19:51:45,Diane Solis,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-08-02 19:58:43,Brittany Blackwell,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-08-02 21:57:21,Allison Bradley,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-08-02 22:31:00,Danny Murphy,How do I join student clubs?,Extracurricular Activities,0
+2025-08-02 22:57:20,Nathan Brown,Are there any art workshops this month?,Extracurricular Activities,0
+2025-08-02 23:59:12,Philip Olson,I have a complaint about the cafeteria service.,General Complaint,1
+2025-08-03 01:19:45,Benjamin Jackson,My dorm heater isn’t working.,Housing/Accommodation,0
+2025-08-03 01:19:48,Autumn Barajas,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-08-03 02:49:05,Omar Miller,What topics will be covered in the AI course?,Course Information,0
+2025-08-03 03:10:10,Marissa Alvarez,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-08-03 03:34:59,John Odonnell,Are there any art workshops this month?,Extracurricular Activities,0
+2025-08-03 03:56:57,Madison Washington,"The workload is too much, I’m not coping well.",Stress or Burnout,1
+2025-08-03 05:37:47,Aaron West,When does the gym open?,Campus Facilities,0
+2025-08-03 05:40:06,Anthony Ware,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-08-03 05:44:10,Joseph Parker,How do I enroll in the winter semester?,Enrollment / Course Registration,0
+2025-08-03 05:44:21,Justin Carr,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-08-03 06:16:08,Kelly Taylor,I want to drop my math course. What’s the process?,Withdrawal or Drop Course,0
+2025-08-03 06:21:51,Michael Short,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-08-03 06:29:39,John Garner,The library Wi-Fi is not working.,Campus Facilities,0
+2025-08-03 07:09:29,Daniel Hughes,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-08-03 07:12:02,Emily Moreno,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-08-03 08:38:38,Jennifer Clark,I'm feeling really overwhelmed lately.,Mental Health Concerns,1
+2025-08-03 10:08:12,Jacob Patterson,The registration portal isn't letting me add courses.,Enrollment / Course Registration,0
+2025-08-03 10:14:05,Tracy Gonzales,Can I talk to someone about my anxiety?,Mental Health Concerns,1
+2025-08-03 10:20:03,Leslie Patel,What topics will be covered in the AI course?,Course Information,0
+2025-08-03 10:39:30,Lisa Bowers,I need help with my student ID card replacement.,Administrative Support,0
+2025-08-03 11:17:48,James Mcmillan,How do I join student clubs?,Extracurricular Activities,0
+2025-08-03 11:39:26,Troy Brown,Are there any art workshops this month?,Extracurricular Activities,0
+2025-08-03 11:48:06,Justin Moses,Is it too late to withdraw from a class?,Withdrawal or Drop Course,0
+2025-08-03 12:03:49,Stephen Jones,I'm having trouble accessing my university email.,Access Issues (portal/login),0
+2025-08-03 12:21:06,Jonathan Curry,I feel burnt out from all my assignments.,Stress or Burnout,1
+2025-08-03 13:11:26,Christopher Woods,I can’t log into my student portal.,Access Issues (portal/login),0
+2025-08-03 13:21:46,Tracey Harris,How do I apply for scholarships?,Scholarship/Financial Aid,0
+2025-08-03 13:37:18,Tyler Stone,Who do I contact for transcript requests?,Administrative Support,0

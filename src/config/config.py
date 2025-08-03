@@ -7,3 +7,20 @@ class Config:
     meta_path: str = '../model/texts.pkl'
     emotion_model_path: str = '../model'
     emotion_labels: list = ["sadness", "grief", "fear", "remorse", "disappointment", "nervousness", "embarrassment" ]
+    student_query_intents = [
+        "Course Information",
+        "Enrollment / Course Registration",
+        "Withdrawal or Drop Course",
+        "Access Issues (portal/login)",
+        "Technical Support",
+        "Tuition/Fees Inquiry",
+        "Scholarship/Financial Aid",
+        "Mental Health Concerns",
+        "Stress or Burnout",
+        "Bullying or Harassment",
+        "Administrative Support",
+        "Campus Facilities",
+        "Housing/Accommodation",
+        "Extracurricular Activities",
+        "General Complaint"
+    ]
