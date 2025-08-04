@@ -16,7 +16,7 @@ class ChatbotController:
         if len(context) > 10000:
             context = context[:10000]
         # Generate answer
-        return self.answer_generator.generate_answer_with_ollama(context, query)
+        return self.answer_generator.generate_answer_with_openai(context, query)
 
 # os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
@@ -28,9 +28,9 @@ class ChatbotController:
 #     print(f"Answer:\n{answer}\n")
 
 # questions = [
-#     "Hi, I'm trying to figure out how to pay my tuition fees.",
-#     "Thanks. Do I need to pay the full amount at once?",
-#     "How do I make a payment?",
+    # "Hi, I'm trying to figure out how to pay my tuition fees.",
+    # "Thanks. Do I need to pay the full amount at once?",
+    # "How do I make a payment?",
     # "What happens if I miss a payment?",
     # "Can I have an extension/ instalment plan of my payment due",
     # "Why has my payment not been posted to the Student Portal/ Can you confirm my payment",

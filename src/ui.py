@@ -1,10 +1,10 @@
 import streamlit as st
 import streamlit.components.v1 as components
 from datetime import datetime
-from chatbotController import ChatbotController
-
 import streamlit as st
 from datetime import datetime
+
+from src.chatbotController import ChatbotController
 
 # Page config
 st.set_page_config(page_title="Conestoga Student Support Chatbot", page_icon="💬")
