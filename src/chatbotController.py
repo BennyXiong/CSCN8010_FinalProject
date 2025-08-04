@@ -1,25 +1,44 @@
-import os
-import warnings
-from urllib3.exceptions import NotOpenSSLWarning
 from src.handlers.answerGenerator import AnswerGenerator
+from src.handlers.emotionClassifier import EmotionClassifier
+from src.handlers.intentClassifier import IntentClassifier
+from src.handlers.interactionLogger import InteractionLogger
 from src.handlers.searchEngine import FaissSearchEngine
+import concurrent.futures
 
 class ChatbotController:
     def __init__(self):
-        self.vector_search = FaissSearchEngine()
+        self.intentClassifier = IntentClassifier()
+        self.emotionClassifier = EmotionClassifier()
         self.answer_generator = AnswerGenerator()
+        self.vector_search = FaissSearchEngine()
+        self.logger = InteractionLogger()
 
-    def get_answer(self, query):
-        results = self.vector_search.search(query, top_k=10)
+    def get_knowledge_base(self, query):
+        kbResults = self.vector_search.search(query, top_k=10)
         # Combine top-k chunks into a single context string
-        context = "\n\n".join([f"{chunk['content']}" for chunk, _ in results])
+        context = "\n\n".join([f"{chunk['content']}" for chunk, _ in kbResults])
         if len(context) > 10000:
             context = context[:10000]
-        # Generate answer
-        return self.answer_generator.generate_answer_with_openai(context, query)
+        return context
 
-# os.environ["TOKENIZERS_PARALLELISM"] = "false"
-# warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
+    def get_answer(self, query):
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            emotionPrediction = executor.submit(self.emotionClassifier.predict, query)
+            intentPrediction = executor.submit(self.intentClassifier.predict, query)
+
+            emotion = emotionPrediction.result()
+            intent = intentPrediction.result()
+        # log query
+        self.logger.log('student_123',query,intent,emotion)
+        # escalate to human agent
+        if (emotion is not None and emotion in ["anger", "sadness", "fear", "disgust"]):
+            return "I'm really sorry you're feeling this way. You don’t have to go through it alone. Please speak with a Student Success Advisor who can support you. You can book an appointment at <a href='https://collegeportal.edu/ssa-booking'>https://collegeportal.edu/ssa-booking</a> or call us directly at 555-123-4567."
+        # get context from knowledge base
+        context = self.get_knowledge_base(query)
+        # Generate answer
+        return self.answer_generator.generate_answer_with_ollama(context, query)
+
+
 # chatbot = ChatbotController()
 
 # def answer(question):
@@ -44,7 +63,8 @@ class ChatbotController:
     # "How to View my Timetable",
     # "I can't see my Timetable",
     # "How do I withdraw from my program",
-    # "How do I change my block or add/drop a course"
+    # "How do I change my block or add/drop a course",
+#     "I feel overwhelmed and not sure if I can keep up this term"
 # ]
 
 # for question in questions:
