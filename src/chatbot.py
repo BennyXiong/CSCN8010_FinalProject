@@ -1,13 +1,13 @@
-from handlers.generateAnswer import generate_answer_with_openai, generate_answer_with_ollama
 import os
 import warnings
 from urllib3.exceptions import NotOpenSSLWarning
-
+from handlers.answerGenerator import AnswerGenerator
 from handlers.searchEngine import FaissSearchEngine
 
 class Chatbot:
     def __init__(self):
         self.vector_search = FaissSearchEngine()
+        self.answer_generator = AnswerGenerator()
 
     def get_answer(self, query):
         results = self.vector_search.search(query, top_k=10)
@@ -16,7 +16,7 @@ class Chatbot:
         if len(context) > 10000:
             context = context[:10000]
         # Generate answer
-        return generate_answer_with_ollama(context, query)
+        return self.answer_generator.generate_answer_with_ollama(context, query)
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
