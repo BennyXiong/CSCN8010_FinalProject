@@ -1,10 +1,10 @@
 import os
 import warnings
 from urllib3.exceptions import NotOpenSSLWarning
-from handlers.answerGenerator import AnswerGenerator
-from handlers.searchEngine import FaissSearchEngine
+from src.handlers.answerGenerator import AnswerGenerator
+from src.handlers.searchEngine import FaissSearchEngine
 
-class Chatbot:
+class ChatbotController:
     def __init__(self):
         self.vector_search = FaissSearchEngine()
         self.answer_generator = AnswerGenerator()
@@ -18,19 +18,19 @@ class Chatbot:
         # Generate answer
         return self.answer_generator.generate_answer_with_ollama(context, query)
 
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
-warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
-chatbot = Chatbot()
+# os.environ["TOKENIZERS_PARALLELISM"] = "false"
+# warnings.filterwarnings("ignore", category=NotOpenSSLWarning)
+# chatbot = ChatbotController()
 
-def answer(question):
-    print (f"{question}\n")
-    answer = chatbot.get_answer(question)
-    print(f"Answer:\n{answer}\n")
+# def answer(question):
+#     print (f"{question}\n")
+#     answer = chatbot.get_answer(question)
+#     print(f"Answer:\n{answer}\n")
 
-questions = [
-    "Hi, I'm trying to figure out how to pay my tuition fees.",
-    # "Thanks. Do I need to pay the full amount at once?",
-    # "How do I make a payment?",
+# questions = [
+#     "Hi, I'm trying to figure out how to pay my tuition fees.",
+#     "Thanks. Do I need to pay the full amount at once?",
+#     "How do I make a payment?",
     # "What happens if I miss a payment?",
     # "Can I have an extension/ instalment plan of my payment due",
     # "Why has my payment not been posted to the Student Portal/ Can you confirm my payment",
@@ -45,7 +45,7 @@ questions = [
     # "I can't see my Timetable",
     # "How do I withdraw from my program",
     # "How do I change my block or add/drop a course"
-]
+# ]
 
-for question in questions:
-    answer(question)
+# for question in questions:
+#     answer(question)

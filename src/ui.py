@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 from datetime import datetime
-from chatbot import Chatbot
+from chatbotController import ChatbotController
 
 import streamlit as st
 from datetime import datetime
@@ -27,7 +27,7 @@ st.title("📚 Student Support Chatbot")
 
 # Initialize chatbot
 if "chatbot" not in st.session_state:
-    st.session_state.chatbot = Chatbot()
+    st.session_state.chatbot = ChatbotController()
 
 # Initialize history
 if "history" not in st.session_state:

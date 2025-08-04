@@ -4,7 +4,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 class FaissSearchEngine:
-    def __init__(self, index_path='model/faiss.index', meta_path='model/texts.pkl'):
+    def __init__(self, index_path='models/faiss.index', meta_path='models/texts.pkl'):
         self.model = SentenceTransformer('all-MiniLM-L6-v2')
         self.index = None
         self.texts = None
@@ -30,3 +30,17 @@ class FaissSearchEngine:
             if len(results) == top_k:
                 break
         return results
+    
+# vector_search = FaissSearchEngine()
+# results = vector_search.search("How do I make a payment")
+# for question in results:
+#     print(question)
+# print("###################################################################")
+# results = vector_search.search("Can I have an extension/ instalment plan of my payment due")
+# for question in results:
+#     print(question)
+# print("###################################################################")
+# results = vector_search.search("When is the last day to drop a course without penalty")
+# for question in results:
+#     print(question)
+    
